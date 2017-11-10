@@ -3,16 +3,16 @@ import java.util.List;
 
 /**
  * created  by KDF on 2017/10/24.
+ * 全排列
  */
 
 
 public class Solution12 {
    static List<Integer> list = new ArrayList<Integer>();
-    static List<List<Integer>> list1 = new ArrayList<List<Integer>>();
+    static List<List<Integer>> lists = new ArrayList<List<Integer>>();
     public static List<List<Integer>> permute(int[] nums) {
               per(nums,0,nums.length);
-
-        return list1;
+        return lists;
     }
 
 
@@ -20,7 +20,7 @@ public class Solution12 {
         if(nums.length == 1){
             for(int i = 0;i<nums.length;i++)
                 list.add(nums[i]);
-            list1.add(list);
+            lists.add(list);
 
         }else{
             for(int j = 0;j<nums.length;j++){
