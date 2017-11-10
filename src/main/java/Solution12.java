@@ -10,10 +10,7 @@ public class Solution12 {
    static List<Integer> list = new ArrayList<Integer>();
     static List<List<Integer>> list1 = new ArrayList<List<Integer>>();
     public static List<List<Integer>> permute(int[] nums) {
-        // write your code here
-
-
-         per(nums,0,nums.length);
+              per(nums,0,nums.length);
 
         return list1;
     }
