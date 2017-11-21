@@ -16,13 +16,14 @@ public class Solution2 {
             List<Integer> list = new ArrayList<Integer>();
             for(int j=i;j<num.length;j++){
                 list.add(num[j]);
-                System.out.println(list);
+//                System.out.println(list);
                 s.add(new ArrayList<Integer>(list));
-
-
             }
         }
         System.out.println(s);
+        System.out.println("......");
+        for(ArrayList<Integer> s1:s)
+            System.out.print(s1);
 
     }
 

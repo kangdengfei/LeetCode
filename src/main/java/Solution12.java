@@ -11,24 +11,26 @@ public class Solution12 {
    static List<Integer> list = new ArrayList<Integer>();
     static List<List<Integer>> lists = new ArrayList<List<Integer>>();
     public static List<List<Integer>> permute(int[] nums) {
-              per(nums,0,nums.length);
+              per(nums,0);
         return lists;
     }
 
 
-    public static void  per(int[] nums,int start,int length){
-        if(nums.length == 1){
-            for(int i = 0;i<nums.length;i++)
-                list.add(nums[i]);
-            lists.add(list);
+    public static void  per(int[] nums,int start){
+        if(start == nums.length){
+            for(int i = 0;i<nums.length;i++) {
+                List<Integer> arrayList = new ArrayList<Integer>();
+                arrayList.add(nums[i]);
+                lists.add(new ArrayList<Integer>(list));
+            }
+
 
         }else{
             for(int j = 0;j<nums.length;j++){
                 swap(nums,start,j);
-                per(nums,start+1,length);
+                per(nums,start+1);
                 swap(nums,start,j);
             }
-
         }
 
     }
@@ -44,7 +46,7 @@ public class Solution12 {
 
     public static void main(String[] args) {
      int []  array = {1,2,3};
-        permute(array);
+        System.out.println(permute(array));
 
 
     }

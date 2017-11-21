@@ -39,12 +39,8 @@ public class Solution9{
                     combition(str,start+1,len);
                     swap(str,start,i);
                 }
-
-
             }
-
         }
-
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,9 +25,9 @@ public class Solution1 {
         if(target<0){
             return ;
         } else if(target==0){
-            System.out.println(list);
+//            System.out.println(list);
            List list1= new ArrayList(list);
-            System.out.println(list1);
+//            System.out.println(list1);
              re.add(new ArrayList(list1));
         } else{
             for(int i = start;i<arry.length;i++){
@@ -64,13 +63,10 @@ public class Solution1 {
 //                list.remove(list.size() - 1);//回退
 //            }
 //        }
-//
 //    }
-
     public static void main(String[] args) {
         int[] candidates = {2, 3, 6, 7};
         int target = 7;
         System.out.println(combinationSum(candidates, target));
-
     }
 }

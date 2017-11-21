@@ -61,7 +61,7 @@ public class Solution13 {
     public static void main(String[] args) {
         String s1 = "qwe";
         String s2 = "qwe";
-        String s3 ="wer";
+        String s3 ="lwer";
         String s4 = new String("qwe");
         String s5 = new String("qwe");
        boolean b=(s1 == s4);
