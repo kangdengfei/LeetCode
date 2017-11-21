@@ -3,6 +3,7 @@
 [回溯算法](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution1.java)<br>
 [字符串替换](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution3.java)<br>
 [反转链表](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution4.java)<br>
+[拼凑面额](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution6.java)<br>
 [买卖股票1](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution7.java)<br>
 [约瑟夫环](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution8.java)<br>
 [全排列](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution9.java)<br>
