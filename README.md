@@ -15,4 +15,5 @@
 [0-1背包1](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution14.java)<br>
 [0-1背包2](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution15.java)<br>
 [顺时针依次打印矩阵](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution17.java)<br>
+[字符串中找出最大连续数字串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution20.java)<br>
 [二叉树遍历](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinTreeTraverse.java)
