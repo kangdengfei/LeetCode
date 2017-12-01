@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 
 
-public class Soulution21 {
+public class Solution21 {
     public static int findMIn(int[] arry){
         Arrays.sort(arry);
         int sum = 0;
