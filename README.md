@@ -17,4 +17,5 @@
 [顺时针依次打印矩阵](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution17.java)<br>
 [字符串中找出最大连续数字串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution20.java)<br>
 [数字游戏](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution21.java)<br>
+[丑数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution22.java)<br>
 [二叉树遍历](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinTreeTraverse.java)
