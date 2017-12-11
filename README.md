@@ -22,4 +22,5 @@
 [反转单词顺序](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution23.java)<br>
 [和为S的两个数字](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution24.java)<br>
 [左旋转字符串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution25.java)<br>
+[替换为右侧最大值](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution26.java)<br>
 [二叉树遍历](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinTreeTraverse.java)
