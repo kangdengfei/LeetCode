@@ -1,3 +1,5 @@
+package solution1_20;
+
 /**
  * created  by KDF on 2017/10/24.
  *

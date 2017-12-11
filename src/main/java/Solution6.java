@@ -1,3 +1,5 @@
+package solution1_20;
+
 import java.util.Scanner;
 
 /**

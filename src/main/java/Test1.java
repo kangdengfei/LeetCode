@@ -9,29 +9,22 @@ import java.util.Scanner;
 
 public class Test1 {
     public static void main(String[] args) {
-
-//        Scanner sc = new Scanner(System.in);
-//        while (sc.hasNext()){
-//            int n = sc.nextInt();
-//            int m = sc.nextInt();
-//            double result = 0;
-//            double num = n;
-//            for (int i = 0;i<m;i++){
-//                result+=num;
-//                num= Math.sqrt(num);
-//            }
-//            System.out.println("n="+n);
-//            System.out.println("m="+m);
-//            System.out.println(result);
-
-
-//        }
-
-
-int sum = 0;
-        for(int i=0;i<3;i++){
-            sum+=i;
-            System.out.println(sum);
-        }
+        System.out.println(test());
     }
+        static int test()
+        {
+            int x = 1;
+            try
+            {
+                x++;
+                return x;
+            }
+            finally
+            {
+                ++x;
+
+            }
+
+        }
+
 }

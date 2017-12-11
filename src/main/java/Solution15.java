@@ -1,3 +1,5 @@
+package solution1_20;
+
 /**
  * created  by KDF on 2017/10/25.
  * 给出n个物品的体积A[i]和其价值V[i]，将他们装入一个大小为m的背包，最多能装入的总价值有多大？
