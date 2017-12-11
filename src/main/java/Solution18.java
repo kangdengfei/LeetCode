@@ -25,7 +25,7 @@ public class Solution18 {
         {
             list.add(n);
             findSum(sum - n, n - 1);// n加入，取n=n-1,m=m-n
-            list.pop();
+
             findSum(sum, n - 1);    // n没有加入，取n=n-1,m=m
         }
         else

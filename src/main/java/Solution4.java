@@ -16,7 +16,7 @@ public class Solution4 {
             listNode= listNode.next;
         }
         ArrayList<Integer> list = new ArrayList<Integer>();
-        while (stack.isEmpty())
+        while (!stack.isEmpty())
         list.add(stack.pop());
 
         return list;
