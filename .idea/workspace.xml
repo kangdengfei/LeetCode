@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Solution27.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Test1.class" afterPath="$PROJECT_DIR$/target/classes/Test1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Test1.java" afterPath="$PROJECT_DIR$/src/main/java/Test1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Solution27.java" afterPath="$PROJECT_DIR$/src/main/java/Solution27.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -112,8 +109,8 @@
       <file leaf-file-name="Solution27.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Solution27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="130">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -506,7 +503,7 @@
       <workItem from="1512436583694" duration="1030000" />
       <workItem from="1512437979180" duration="9846000" />
       <workItem from="1512613145497" duration="5451000" />
-      <workItem from="1512958138294" duration="14652000" />
+      <workItem from="1512958138294" duration="14761000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -519,7 +516,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155698000" />
+    <option name="totallyTimeSpent" value="155807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,7 +582,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Solution27.java</url>
-          <line>33</line>
+          <line>36</line>
           <properties class="Solution27" method="main">
             <option name="EMULATED" value="true" />
           </properties>
@@ -998,8 +995,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Solution27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
