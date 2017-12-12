@@ -17,12 +17,12 @@
 [顺时针依次打印矩阵](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution17.java)<br>
 [字符串中第一个只出现一次的字符](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution19.java)<br>
 [字符串中找出最大连续数字串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution20.java)<br>
-[数字游戏](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution21.java)<br>
-[丑数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution22.java)<br>
-[反转单词顺序](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution23.java)<br>
-[和为S的两个数字](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution24.java)<br>
-[左旋转字符串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution25.java)<br>
-[替换为右侧最大值](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution26.java)<br>
-[缺失的第一个素数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution27.java)<br>
-[链表求和 II](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution28.java)<br>
+[数字游戏](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution21.java)<br>
+[丑数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution22.java)<br>
+[反转单词顺序](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution23.java)<br>
+[和为S的两个数字](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution24.java)<br>
+[左旋转字符串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution25.java)<br>
+[替换为右侧最大值](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution26.java)<br>
+[缺失的第一个素数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution27.java)<br>
+[链表求和 II](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution28.java)<br>
 [二叉树遍历](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinTreeTraverse.java)
