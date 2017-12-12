@@ -24,4 +24,5 @@
 [左旋转字符串](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution25.java)<br>
 [替换为右侧最大值](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution26.java)<br>
 [缺失的第一个素数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution27.java)<br>
+[链表求和 II](https://github.com/kangdengfei/Code/blob/master/src/main/java/Soulution28.java)<br>
 [二叉树遍历](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinTreeTraverse.java)
