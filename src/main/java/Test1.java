@@ -1,5 +1,4 @@
-import java.util.Queue;
-import java.util.Scanner;
+
 
 
 /**
@@ -19,9 +18,14 @@ public class Test1 {
                 x++;
                 return x;
             }
+            catch (Exception e){
+                x++;
+                return x;
+            }
             finally
             {
                 ++x;
+//                return x;
 
             }
 
