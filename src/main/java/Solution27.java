@@ -31,7 +31,7 @@ public class Solution27 {
                     }
                 }
             }
-            return 4;
+            return 0;
     }
 
     public static void main(String[] args) {
