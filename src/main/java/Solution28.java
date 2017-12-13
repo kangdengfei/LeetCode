@@ -78,6 +78,8 @@ public class Solution28 {
             }
             s3.push(b);
         }
+        if(c==1)
+            s3.push(c);
         while (s3.isEmpty()!=true){
             r.next=new ListNode(s3.pop());
             r=r.next;
