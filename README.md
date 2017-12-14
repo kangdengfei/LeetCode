@@ -26,4 +26,5 @@
 [缺失的第一个素数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution27.java)<br>
 [链表求和 II](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution28.java)<br>
 [完美平方](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution29.java)<br>
+[交错正负数](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution30.java)<br>
 [二叉树遍历](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinTreeTraverse.java)
