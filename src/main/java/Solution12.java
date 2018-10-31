@@ -28,7 +28,7 @@ public class Solution12 {
 
 
         }else{
-            for(int j = 0;j<nums.length;j++){
+            for(int j = start;j<nums.length;j++){
                 swap(nums,start,j);
                 per(nums,start+1);
                 swap(nums,start,j);

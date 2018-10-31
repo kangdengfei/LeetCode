@@ -1,5 +1,3 @@
-package solution1_20;
-
 /**
  * created  by KDF on 2017/10/24.
  *
@@ -25,7 +23,6 @@ public class Solution14 {
                 dp[0][j] = A[0];
         }
 
-
         for(int i =1;i<len;i++){
             for(int j= 1;j<=m;j++){
                 if(j<A[i])
@@ -38,9 +35,18 @@ public class Solution14 {
 
     }
 
+
+    /**
+     *优化二维数组为一维数组
+     */
+    public static int backPackV2(){
+
+    }
+
+
     public static void main(String[] args) {
         int [] a={2,3,5,7};
-        System.out.println( backPack(12,a));
+        System.out.println( backPack(13,a));
 
     }
 }

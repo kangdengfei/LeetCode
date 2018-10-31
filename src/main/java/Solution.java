@@ -15,7 +15,6 @@ public class Solution {
             sum =sum+array[i];
             if(sum<0){
                 sum = 0;
-
             }else  if(sum >result){
                 result = sum;
             }

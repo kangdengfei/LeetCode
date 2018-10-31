@@ -1,4 +1,4 @@
-package solution1_20;
+import java.util.ArrayList;
 
 /**
  * created  by KDF on 2017/10/24.
@@ -68,6 +68,7 @@ public class Solution13 {
        String re = null;
        re = maxCommonString(s1,s3);
         System.out.println(re);
+        ArrayList arrayList = new ArrayList();
 
     }
 

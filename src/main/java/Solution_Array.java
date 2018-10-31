@@ -9,10 +9,8 @@
  */
 public class Solution_Array {
     public boolean Find(int target, int [][] array) {
-
         int len = array.length;
         int i = 0;
-
         while(len>0&&i<array[0].length){
 
             if(array[len-1][i]>target){

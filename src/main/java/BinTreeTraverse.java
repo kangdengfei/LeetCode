@@ -1,6 +1,4 @@
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * created  by KDF on 2017/11/15.
@@ -8,7 +6,8 @@ import java.util.Stack;
 
 
 public class BinTreeTraverse {
-    private int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//    private int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    private int[] array = {7,5,9,4,6,8,10};
     private static List<Node> nodeList = null;
     private static class Node {
         Node leftChild;
@@ -118,26 +117,62 @@ public class BinTreeTraverse {
             }
         }
     }
+
+
+    public static List mygd(Node root){
+        List<Integer> list = new ArrayList<Integer>();
+        Queue<Node> queue = new LinkedList();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            root = queue.poll();
+            if (root.leftChild!=null)
+                queue.offer(root.leftChild);
+            if (root.rightChild!= null)
+                queue.offer(root.rightChild);
+            list.add(root.data);
+        }
+        return list;
+    }
+
+    public static List mysd(Node root){
+        List<Integer> list = new ArrayList<Integer>();
+        Stack<Node> stack = new Stack();
+        Node node = root;
+        while (node != null || !stack.empty()){
+            while (root != null) {
+                stack.push(root);
+                root = root.leftChild;
+            }
+            root =  stack.pop();
+            list.add(root.data);
+            root = root.rightChild;
+        }
+        return list;
+    }
     public static void main(String[] args) {
         BinTreeTraverse binTree = new BinTreeTraverse();
         binTree.createBinTree();
         // nodeList中第0个索引处的值即为根节点
         Node root = nodeList.get(0);
 
-        System.out.println("先序遍历：");
-        preOrderTraverse(root);
-        System.out.println();
-
-        System.out.println("中序遍历：");
-        inOrderTraverse(root);
-        System.out.println();
-
-        System.out.println("后序遍历：");
-        postOrderTraverse(root);
-        System.out.println();
+//        System.out.println("先序遍历：");
+//        preOrderTraverse(root);
+//        System.out.println();
+//
+//        System.out.println("中序遍历：");
+//        inOrderTraverse(root);
+//        System.out.println();
+//
+//        System.out.println("后序遍历：");
+//        postOrderTraverse(root);
+//        System.out.println();
 
 
         iterativeInorder2(root);
+        System.out.println(mysd(root));
+        System.out.println(mygd(root));
+        Object o = new Object();
+        o.hashCode();
     }
 
 }
