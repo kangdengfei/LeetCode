@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.junit:error:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/error/unknown/error-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/error/unknown/error-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/error/unknown/error-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

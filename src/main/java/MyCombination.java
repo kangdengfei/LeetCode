@@ -18,13 +18,14 @@ public class MyCombination {
         }
         for (int i=start;i<a.length;i++){
             list.add(a[i]);
-            DFS(a,i,temp-a[i]);
+            DFS(a,i,temp-a[i]);//数字可以重复
+            DFS(a,i+1,temp-a[i]);//数字不可以重复
             list.remove(list.size()-1);
         }
     }
 
     public static void main(String[] args) {
-        int [] array = {1,5};
+        int [] array = {1,5,2};
 //        int [] array = {2,3,4,7};
         DFS(array,0,8);
     }

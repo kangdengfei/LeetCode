@@ -6,8 +6,8 @@ import java.util.*;
 
 
 public class BinTreeTraverse {
-//    private int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-    private int[] array = {7,5,9,4,6,8,10};
+    private int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//    private int[] array = {7,5,9,4,6,8,10};
     private static List<Node> nodeList = null;
     private static class Node {
         Node leftChild;
@@ -119,6 +119,11 @@ public class BinTreeTraverse {
     }
 
 
+    /**
+     * 层次遍历
+     * @param root
+     * @return
+     */
     public static List mygd(Node root){
         List<Integer> list = new ArrayList<Integer>();
         Queue<Node> queue = new LinkedList();
@@ -134,6 +139,11 @@ public class BinTreeTraverse {
         return list;
     }
 
+    /**
+     * 深度遍历
+     * @param root
+     * @return
+     */
     public static List mysd(Node root){
         List<Integer> list = new ArrayList<Integer>();
         Stack<Node> stack = new Stack();
@@ -149,15 +159,166 @@ public class BinTreeTraverse {
         }
         return list;
     }
+
+    /**
+     * 求二叉树的最大高度
+     * @param root
+     * @return
+     */
+    public int depth(Node root){
+        if (root == null){
+            return 0;
+        }
+        int left = depth(root.leftChild);
+        int right = depth(root.rightChild);
+        return left>right?left+1:right+1;
+    }
+
+
+    /**
+     * 是否为二叉搜素树
+     * @return
+     *
+     * 无重复数据时： 中序遍历 数据依次递增
+     */
+    public boolean isBSF(){
+        return true;
+    }
+
+
+    /**
+     * 是否为二平衡二叉树
+     * @param node
+     * @return
+     *
+     * 先序遍历
+     */
+    public boolean isBlanceTree_1(Node node){
+        return false;
+    }
+
+
+    /**
+     * 是否为平衡二叉树
+     * @param node
+     * @return
+     *
+     *通过后序遍历，避免重复比较子树
+     *比较左右子树高度是否相差为1
+     *
+     *
+     */
+    boolean flag = true;
+    public boolean isBlanceTree_2(Node node){
+        depth2(node);
+        return flag;
+    }
+
+
+    public int depth2(Node node){
+        if (node == null)
+            return 0;
+
+        int left = depth2(node.leftChild);
+        int right = depth2(node.rightChild);
+
+        if (Math.abs(left-right)>1){
+            flag = false;
+        }
+        return left>right?left+1:right+1;
+    }
+    /**
+     * 判断是否为完全二叉树
+     * @param root
+     * @return
+     * 层次遍历
+     * 1.有右节点无左节点 false；
+     * 2.没有左节点或右节点，下面的都是叶子节点
+     */
+    public static boolean isCompleteTree(Node root){
+            if (root== null){
+                return true;
+            }
+
+        LinkedList<Node> linkedList = new LinkedList<Node>();
+        linkedList.push(root);
+        boolean flag = false;
+        if(!linkedList.isEmpty()){
+            Node node = linkedList.poll();
+            Node left = root.leftChild;
+            Node right = root.rightChild;
+            if((flag&&((left!=null)||(right!= null))) || (left==null&&right!=null)){
+                return false;
+            }
+            if (left!= null){
+                linkedList.push(left);
+            }
+            if (right != null){
+                linkedList.push(right);
+            }else {
+                flag = true; // 如果当前结点没有右孩子，那么之后层遍历到的结点必须为叶子结点
+            }
+
+        }
+        return true;
+
+    }
+
+
+
+    public static List<Integer> rightSideView(Node root) {
+        if(root == null)
+            return null;
+        Queue<Node>list1 = new LinkedList<Node>();
+
+        Queue<Node> list2 = new LinkedList<Node>();
+        List<Integer> list= new ArrayList<Integer>();
+        boolean flag = true;
+        boolean flag2 = true;
+        list1.offer(root);
+        while(!list1.isEmpty() || !list2.isEmpty()){
+            if(flag){
+                Node node = list1.poll();
+                if(flag2){
+                    list.add(node.data);
+                    flag2= false;
+                }
+                if(node.rightChild != null)
+                    list2.offer(node.rightChild);
+                if(node.leftChild!=null)
+                    list2.offer(node.leftChild);
+                if(list1.isEmpty()){
+                    flag=false;
+                    flag2= true;
+                }
+            }else{
+                Node node = list2.poll();
+                if(flag2){
+                    list.add(node.data);
+                    flag2=false;
+                }
+                if(node.rightChild!=null)
+                    list1.offer(node.rightChild);
+                if(node.leftChild!=null)
+                    list1.offer(node.leftChild);
+                if(list2.isEmpty()){
+                    flag=true;
+                    flag2=true;
+                }
+            }
+        }
+
+        return list;
+    }
     public static void main(String[] args) {
         BinTreeTraverse binTree = new BinTreeTraverse();
         binTree.createBinTree();
         // nodeList中第0个索引处的值即为根节点
         Node root = nodeList.get(0);
 
-//        System.out.println("先序遍历：");
-//        preOrderTraverse(root);
-//        System.out.println();
+        System.out.println("先序遍历：");
+        preOrderTraverse(root);
+        System.out.println();
 //
 //        System.out.println("中序遍历：");
 //        inOrderTraverse(root);
@@ -169,10 +330,18 @@ public class BinTreeTraverse {
 
 
         iterativeInorder2(root);
-        System.out.println(mysd(root));
-        System.out.println(mygd(root));
-        Object o = new Object();
-        o.hashCode();
+//        System.out.println(mysd(root));
+//        System.out.println(mygd(root));
+//        System.out.println(isCompleteTree(root));
+//
+//        List<Integer> list = rightSideView(root);
+//        System.out.println(list);
+//
+//        LinkedList linkedList = new LinkedList();
+//        linkedList.offer(1);
+//        linkedList.offer(2);
+//        linkedList.offer(3);
+//        System.out.println(linkedList.poll());
     }
 
 }
