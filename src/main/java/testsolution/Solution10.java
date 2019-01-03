@@ -17,13 +17,24 @@ public class Solution10 {
             sum += array[i];
             else
                 sum = array[i];
-            if(sum >max)
-                max = sum;
+            max = Math.max(sum,max);
         }
         return max;
     }
 
+    public static int findValue2(int [] array){
+        int sum = 0;
+        int max = Integer.MIN_VALUE;
+        for (int i = 0;i<array.length;i++){
+            sum += array[i];
+            max = Math.max(max,sum);
+            if (sum<0)
+                sum =0;
+        }
+        return max;
+    }
 
+    @Deprecated
     public static int findValue(int[] array){
         int max =  array[0];
         int sum = array[0];
@@ -40,9 +51,10 @@ public class Solution10 {
     }
 
     public static void main(String[] args) {
-        int []array = {3,-1,2,4};
+        int []array = {-1,-2,-3};
         int max =FindGreatestSumOfSubArray(array);
         System.out.println(max);
+        System.out.println(findValue2(array));
         System.out.println(findValue(array));
     }
 

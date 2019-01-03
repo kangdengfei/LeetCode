@@ -7,28 +7,12 @@
 
 
 public class Test1 {
-    public static void main(String[] args) {
-        System.out.println(test());
-    }
-        static int test()
-        {
-            int x = 1;
-            try
-            {
-                x++;
-                return x;
-            }
-            catch (Exception e){
-                x++;
-                return x;
-            }
-            finally
-            {
-                ++x;
-//                return x;
-
-            }
-
+    public static void main(String[] args){
+        int temp = 1;
+        for (int i = 2*temp+1;i<40;i=2*i+1){
+            System.out.println(i);
+            temp = i;
         }
+    }
 
 }

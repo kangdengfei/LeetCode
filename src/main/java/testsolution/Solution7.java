@@ -14,7 +14,7 @@ public class Solution7 {
     public  static int getMax(int []array){
         int temp;
         int min = array[0];
-        int result = 0;
+        int result = array[0];
         for(int i=1;i<array.length;i++){
 
             if(min>array[i]){
@@ -27,9 +27,11 @@ public class Solution7 {
         }
         return result;
     }
+
     public static void main(String[] args) {
         int []a = {3,2,3,1,2,6};
         int re =getMax(a);
         System.out.println(re);
+
     }
 }

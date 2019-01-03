@@ -64,7 +64,9 @@ public class Combinations_77 {
 
 
     public static void main(String[] args) {
-        System.out.println(combine(4,2));
+        int k = 3;
+        for (int i = 1;i<=k;i++)
+            System.out.println(combine(4,i));
     }
 }
 

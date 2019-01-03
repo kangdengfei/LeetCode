@@ -41,6 +41,18 @@ public class Solution {
         }
         return max;
     }
+
+
+    public static int getMax3(int[] array){
+        int sum = array[0];
+
+        for (int i = 1;i<array.length;i++){
+            if (array[i]>0){
+                sum+=array[i];
+            }
+        }
+          return 0;
+    }
     public static void main(String[] args) {
         int [] a={-1,-2,-3};
         int [] a2 = {-2,2,-3,4,-1,2,1,-5,3};

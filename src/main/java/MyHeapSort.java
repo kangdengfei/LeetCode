@@ -10,18 +10,21 @@ public class MyHeapSort {
 
     //调整堆 parent需要调整的节点
     public static void adjustHeap(int []array,int parent,int length){
-        int temp = array[parent];
+
         for(int i = 2*parent+1; i<length;i = 2*i+1){
             if(i+1<length && array[i]<array[i+1]){
                 i++;
             }
-            if(array[i]>temp){
-                array[parent] = array[i];
+            if(array[i]>array[parent]){
+//                int temp = array[parent];
+//                array[parent] = array[i];
+//                array[i] = temp;
+                swap(array,i,parent);
                 parent = i;
             }else {
                 break;
             }
-            array[parent]= temp;
+
         }
     }
 
@@ -45,7 +48,7 @@ public class MyHeapSort {
     }
 
     public static void main(String[] args) {
-        int []arry = {8,12,4,5,9,11,2,10,6,13};
+        int []arry = {8,3,12,4,1,5,9,11,2,10,6,13};
         sort(arry);
         System.out.println(Arrays.toString(arry));
         for (int i =0;i<arry.length;i++){

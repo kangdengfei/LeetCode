@@ -59,9 +59,40 @@ public class Solution13 {
        return re;
     }
 
+    public static int maxCommonStringV2(String s1,String s2){
+        int m = s1.length();
+        int n = s2.length();
+        int [][]dp = new int[m][n];
+        int max = 0;
+        for (int i = 0;i<m;i++){
+            if(s1.charAt(i) == s2.charAt(0))
+                dp[i][0]=1;
+            else
+                dp[i][0]=0;
+        }
+        for (int i = 0; i<n;i++){
+            if (s1.charAt(0) == s2.charAt(i))
+                dp[0][i] = 1;
+            else
+                dp[0][i] = 0;
+        }
+
+        for (int i = 1;i<m;i++){
+            for (int j = 1;j<n;j++){
+                if (s1.charAt(i)==s2.charAt(j))
+                    dp[i][j]=dp[i-1][j-1]+1;
+                else
+                    dp[i][j] = 0;
+                max = Math.max(max,dp[i][j]);
+            }
+        }
+        return max;
+
+    }
+
     public static void main(String[] args) {
-        String s1 = "qweabc";
-        String s2 = "qwe";
+        String s1 = "qweaebc";
+        String s2 = "aqweaec";
         String s3 ="lwerabc";
         String s4 = new String("qwe");
         String s5 = new String("qwe");
@@ -70,6 +101,7 @@ public class Solution13 {
        String re = null;
        re = maxCommonString(s1,s3);
         System.out.println(re);
+        System.out.println(maxCommonStringV2(s1,s2));
         ArrayList arrayList = new ArrayList();
 
     }
