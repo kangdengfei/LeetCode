@@ -39,7 +39,8 @@ public class Jump_Game_55 {
 
     public static void main(String[] args) {
         int [] array = {2,0,1,0,1};
-        canJump(array);
+        System.out.println(canJump(array));
+        System.out.println(canJump2(array));
     }
 }
 

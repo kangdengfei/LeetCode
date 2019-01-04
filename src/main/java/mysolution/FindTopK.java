@@ -68,7 +68,7 @@ public class FindTopK {
 
 
     public static void main(String[] args) {
-        int [] array = {2,5,8,1,12,14,4,6,7,18,10};
+        int [] array = {2,5,3,8,1,12,14,4,6,7,18,10};
 //        int [] array = {2,5,8,1,12,14};
         int k = 5;
 //        buildHeap(array);

@@ -264,8 +264,6 @@ public class BinTreeTraverse {
 
     }
 
-
-
     public static List<Integer> rightSideView(Node root) {
         if(root == null)
             return null;

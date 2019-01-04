@@ -28,6 +28,7 @@ public class MyCombination {
         int [] array = {1,5,2};
 //        int [] array = {2,3,4,7};
         DFS(array,0,8);
+        System.out.println(list.size());
     }
 }
 

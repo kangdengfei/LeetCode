@@ -61,7 +61,7 @@ public class Path_Sum_II_113 {
         if(root.right != null){
             caculateValue(root.right,list,sum,sumList);
         }
-        list.remove(list.size()-1);
+        list.remove(list.size()-1);//回溯很重要的做法回退
       return sumList;
     }
 

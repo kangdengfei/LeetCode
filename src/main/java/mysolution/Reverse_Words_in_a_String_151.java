@@ -41,8 +41,6 @@ public class Reverse_Words_in_a_String_151 {
     public static void main(String[] args) {
         String string = "the sky is blue";
         System.out.println(reverseWords(string));
-
-
     }
 }
 

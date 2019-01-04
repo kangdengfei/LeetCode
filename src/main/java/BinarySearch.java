@@ -30,7 +30,7 @@ public class BinarySearch {
 
     public static int binarySearch(int []array, int target) {
 
-         int left = 0,right = array.length;
+         int left = 0,right = array.length-1;
          int mid = 0;
          while (left <= right) {
              mid = (left + right) / 2;

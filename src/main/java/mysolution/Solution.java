@@ -45,18 +45,21 @@ public class Solution {
 
     public static int getMax3(int[] array){
         int sum = array[0];
-
+        int max = array[0];
         for (int i = 1;i<array.length;i++){
             if (array[i]>0){
                 sum+=array[i];
-            }
+            }else
+                sum = array[i];
+            max = Math.max(max,sum);
         }
-          return 0;
+          return max;
     }
     public static void main(String[] args) {
-        int [] a={-1,-2,-3};
+        int [] a={-3,-2,-1};
         int [] a2 = {-2,2,-3,4,-1,2,1,-5,3};
-        System.out.println(getMax(a2));
-        System.out.println(getMax2(a2));
+//        System.out.println(getMax(a2));
+        System.out.println(getMax2(a));
+        System.out.println(getMax3(a));
     }
 }

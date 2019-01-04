@@ -1,5 +1,7 @@
 package mysolution;
 
+import java.util.Arrays;
+
 /**
  * @program: Code
  * @author: KDF
@@ -55,13 +57,9 @@ public class MegerSort {
             System.out.print(sort[i]);
             System.out.print(" ");
         }
+        System.out.println(Arrays.toString(array1));
+        System.out.println(Arrays.toString(sort));
     }
-
-
-
-
-
-
 }
 
 

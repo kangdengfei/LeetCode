@@ -15,13 +15,13 @@ public class Test_1 {
             mun = (mun-i)/26;
             stringBuilder.append(array[i]);
         }
-        System.out.println(stringBuilder.toString());
+
         return stringBuilder.reverse().toString();
 
     }
 
     public static void main(String[] args) {
-        System.out.println(getString(28));
+        System.out.println(getString(54).toUpperCase());
     }
 }
 
