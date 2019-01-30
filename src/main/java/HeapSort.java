@@ -72,5 +72,6 @@ public class HeapSort {
         heap.heapSort(array);
         System.out.print("排序后:\t");
         heap.printPart(array, 0, array.length - 1);
+
     }
 }

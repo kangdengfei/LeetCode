@@ -2,12 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * created  by KDF on 2017/9/28.
- * 输入一个n ，打印所有可能的括号组合
- */
-
-
-public class Test1 {
+ * @program: Code
+ * @author: KDF
+ * @create: 2019-01-25 13:06
+ **/
+public class Test2 {
     public static void main(String[] args) {
         int n = 4;
         System.out.println(combion(n).size());
@@ -41,26 +40,7 @@ public class Test1 {
         }
     }
 
-
-//
-    static ArrayList<String> list = new ArrayList();
-//    public static void main(String[] args) {
-//        int n =2;
-//        dfs(0,0,"",n);
-//        for (int i = 0; i < list.size(); i++)
-//            System.out.print(list.get(i) + (i != list.size() - 1 ? "," : "\n"));
-//
-//    }
-
-    static void dfs(int l, int r, String str, int n){
-        if(str.length()==n*2){
-            list.add(str);
-            return;
-        }
-        if(l<n)
-            dfs(l+1, r, str+'(', n);
-        if(r<n&&l>r)
-            dfs( l, r+1, str+')', n);
-    }
-
 }
+
+
+

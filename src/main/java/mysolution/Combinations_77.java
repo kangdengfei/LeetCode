@@ -25,15 +25,19 @@ import java.util.List;
  *
  **/
 public class Combinations_77 {
+    static int totoal = 0;
     public static List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> combs = new ArrayList();
         combine(combs,new ArrayList<Integer>() ,1,n,k);
+//        System.out.println(totoal);
+        System.out.println("------");
         return combs;
     }
 
     public static void combine(List<List<Integer>> combs,List<Integer> list,int statr ,int n ,int k){
         if (k == 0){
             combs.add(new ArrayList<Integer>(list));
+            totoal++;
             return;
         }
         for (int i = statr;i<=n;i++){
@@ -43,30 +47,11 @@ public class Combinations_77 {
         }
     }
 
-
-//    public static List<List<Integer>> combine(int n, int k) {
-//        List<List<Integer>> combs = new ArrayList<List<Integer>>();
-//        combine(combs, new ArrayList<Integer>(), 1, n, k);
-//        return combs;
-//    }
-//    public static void combine(List<List<Integer>> combs, List<Integer> comb, int start, int n, int k) {
-//        if(k==0) {
-//            combs.add(new ArrayList<Integer>(comb));
-//            return;
-//        }
-//        for(int i=start;i<=n;i++) {
-//            comb.add(i);
-//            combine(combs, comb, i+1, n, k-1);
-//            comb.remove(comb.size()-1);
-//        }
-//    }
-
-
-
     public static void main(String[] args) {
-        int k = 3;
-        for (int i = 1;i<=k;i++)
+        int k = 4;
+        for (int i = 1;i<=4;i++)
             System.out.println(combine(4,i));
+        System.out.println(totoal);
     }
 }
 

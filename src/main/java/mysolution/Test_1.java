@@ -21,7 +21,7 @@ public class Test_1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(getString(54).toUpperCase());
+        System.out.println(getString(26).toUpperCase());
     }
 }
 

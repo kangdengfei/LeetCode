@@ -1,5 +1,8 @@
 package testsolution;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * created  by KDF on 2017/10/23.
  * 全组合
@@ -25,7 +28,33 @@ public class Solution11 {
         }
         System.out.println("结果数为:" + (nbit - 1));
     }
+
+    public static void combination2(String s,int len){
+        char[] chars = s.toCharArray();
+        combination2(chars,0,len,new ArrayList());
+
+    }
+    public static void combination2(char [] array, int start, int len, List list){
+        if (len == 0){
+            System.out.println(list);
+            return;
+        }
+
+        for (int i = start;i<array.length;i++){
+            list.add(array[i]);
+            combination2(array,i+1,len-1,list);
+            list.remove(list.size()-1);
+        }
+    }
     public static void main(String[] args) {
         new Solution11().combination("cgz");
+        String string = "abc";
+        for (int i = 0;i<=string.length();i++){
+            combination2(string,i);
+        }
+
+
+
+
     }
 }

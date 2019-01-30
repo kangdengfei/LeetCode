@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @create: 2019-01-02 14:21
  **/
 public class FindTopK {
-    /***堆排序的两个步奏
+
     //1.构建最大堆
     public static void buildHeap(int []array){
 
@@ -16,7 +16,7 @@ public class FindTopK {
             adjustHeap(array,i,array.length);
         }
     }
-    public static void adjustHeap(int []array ,int parent ,int len){
+    public static void adjustHeapV2(int []array ,int parent ,int len){
         for (int i = 2*parent+1;i<len;i++){
             if(i+1<len && array[i+1]>array[i]){
                 i++;
@@ -30,12 +30,6 @@ public class FindTopK {
                 break;
         }
     }
-     **/
-
-
-
-
-
 
     public static void swap(int [] array ,int i ,int j){
         int temp = array[i];

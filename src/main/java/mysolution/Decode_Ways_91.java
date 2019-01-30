@@ -67,7 +67,7 @@ public class Decode_Ways_91 {
 
 
     public static void main(String[] args) {
-        String s= "1";
+        String s= "111";
         int i = numDecodings3(s);
         System.out.println(i);
     }

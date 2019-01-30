@@ -1,6 +1,8 @@
 package testsolution;
 
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -31,17 +33,16 @@ public class Solution9{
 
         return false;
     }
-    public static void combition(String[] str,int start,int len){
+    public static void combition(String[] str,int start,int len,List<List<Integer>> list){
         if(start == len-1){
-            for(int i=start;i<len;i++)
-                System.out.print(str[i]);
-            System.out.println();
+            list.add(new ArrayList(Arrays.asList(str)));
+            System.out.println(Arrays.toString(str));
             total++;
         }else{
             for(int i=start;i<len;i++){
                 if(isSame(str,start,i)){
                     swap(str,start,i);
-                    combition(str,start+1,len);
+                    combition(str,start+1,len,list);
                     swap(str,start,i);
                 }
             }
@@ -49,8 +50,10 @@ public class Solution9{
     }
 
     public static void main(String[] args) {
-        String[] st = {"a","b","c","c","d"};
-        combition(st,0,st.length);
+        String[] st = {"a","b","c"};
+        List list = new ArrayList();
+        combition(st,0,st.length,list);
+        System.out.println(list);
         System.out.println(total);
     }
 

@@ -28,10 +28,22 @@ public class Solution7 {
         return result;
     }
 
+
+    public static int getMax2(int []array){
+
+        int max = array[0];
+        int min = array[0];
+        for(int i = 1;i<array.length;i++){
+            min = Math.min(min,array[i]);
+            int temp = Math.abs(array[i] -min);
+            max = Math.max(max,temp);
+        }
+        return max;
+    }
     public static void main(String[] args) {
-        int []a = {3,2,3,1,2,6};
+        int []a = {3,2,3,1,2,6,16};
         int re =getMax(a);
         System.out.println(re);
-
+        System.out.println(getMax2(a));
     }
 }

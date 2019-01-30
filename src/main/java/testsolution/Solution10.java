@@ -34,6 +34,11 @@ public class Solution10 {
         return max;
     }
 
+    /**
+     * 这个方法有问题
+     * @param array
+     * @return
+     */
     @Deprecated
     public static int findValue(int[] array){
         int max =  array[0];
@@ -51,7 +56,7 @@ public class Solution10 {
     }
 
     public static void main(String[] args) {
-        int []array = {-1,-2,-3};
+        int []array = {1,4};
         int max =FindGreatestSumOfSubArray(array);
         System.out.println(max);
         System.out.println(findValue2(array));

@@ -32,7 +32,7 @@ public class Solution17 {
         for(int i = boom-1;i>top;i--){
             list.add(matrix[i][left]);
         }
-        left++;
+            left++;
             right--;
             top++;
             boom--;

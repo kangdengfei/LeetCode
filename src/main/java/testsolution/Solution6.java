@@ -12,48 +12,32 @@ import java.util.List;
 
 
 public class  Solution6 {
-    public static int[] moneys = {1,5,10,20,50,100};
+    public static int[] moneys = {1,5,10};
 
+    static int tot =0;
     public static void main(String[] args) {
-//        Scanner scanner = new Scanner(System.in);
-//        while (scanner.hasNext()){
-//            int n = scanner.nextInt();
-//            int[] moneys = {1,5,10,20,50,100};
-//            long[] dp = new long[n+1]; //dp[i]代表拼凑i元的方法数
-//            dp[0] = 1;
-//            for(int i=0;i<moneys.length;i++){
-//                for(int j=1;j<=n;j++){
-//                    if(j >= moneys[i]){
-//                        dp[j]+= dp[j-moneys[i]];
-//                    }
-//                }
-//            }
-//            System.out.println(dp[n]);
-//            System.out.println(--);
-//
-//        }
 
-        int dfs = DFS(moneys, 0, 30);
-        System.out.println(dfs);
+        int total = 0;
+        DFS(moneys, 0, 5,total);
+        System.out.println(total);
         System.out.println("---");
-        old(18);
+        old(5);
+        System.out.println(tot);
 
     }
 
-    public static  int total;
+
     public static List<Integer> list = new ArrayList<Integer>();
-    public static int DFS(int []a, int start , int target){
-        if(target < 0) return 0;
+    public static void  DFS(int []a, int start , int target,int total){
+        if(target < 0) return ;
         if (target == 0){
-//            System.out.println(list);
-            total++;
+            tot++;
         }
         for (int i = start; i < a.length; i++){
-            list.add(a[i]);
-            DFS(a,i+1,target-a[i]);
-            list.remove(list.size()-1);
+//            list.add(a[i]);
+            DFS(a,i,target-a[i],total);
+//            list.remove(list.size()-1);
         }
-        return total;
     }
 
 

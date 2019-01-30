@@ -6,8 +6,6 @@ import java.util.Arrays;
  * @create: 2018-10-26 09:23
  **/
 public class MyHeapSort {
-
-
     //调整堆 parent需要调整的节点
     public static void adjustHeap(int []array,int parent,int length){
 
@@ -24,7 +22,6 @@ public class MyHeapSort {
             }else {
                 break;
             }
-
         }
     }
 

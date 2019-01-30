@@ -51,7 +51,7 @@ public class MegerSort {
 //            System.out.print(" ");
 //        }
         System.out.println();
-        int [] array1 = {3,5,4,1,9,6,8,7,2};
+        int [] array1 = {6,5};
         int[] sort = sort(array1, 0, array1.length-1);
         for(int i = 0;i<sort.length;i++){
             System.out.print(sort[i]);
