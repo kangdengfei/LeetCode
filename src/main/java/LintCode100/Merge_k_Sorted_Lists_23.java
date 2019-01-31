@@ -1,4 +1,4 @@
-package mysolution;
+package LintCode100;
 
 /**
  * @program: Code
@@ -24,7 +24,7 @@ public class Merge_k_Sorted_Lists_23 {
         return mergeSort(lists,0,lists.length-1);
     }
 
-    public ListNode mergeSort(ListNode[]lists,int start,int end){
+    public ListNode mergeSort(ListNode[]lists, int start, int end){
         if(start == end){
             return lists[start];
         }else{
@@ -37,7 +37,7 @@ public class Merge_k_Sorted_Lists_23 {
 
 
 
-    public ListNode merge(ListNode l1,ListNode l2){
+    public ListNode merge(ListNode l1, ListNode l2){
         ListNode newHead = new ListNode(-1);
         ListNode cur = newHead;
         while(l1 != null && l2 != null){
