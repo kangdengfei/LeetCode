@@ -1,4 +1,4 @@
-package mysolution;
+package LintCode100;
 
 /**
  * @program: Code
