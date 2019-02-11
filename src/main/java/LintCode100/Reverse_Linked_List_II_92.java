@@ -1,4 +1,6 @@
-package mysolution;
+package LintCode100;
+
+
 
 /**
  * @program: Code
@@ -10,7 +12,6 @@ public class Reverse_Linked_List_II_92 {
     public static ListNode reverseBetween(ListNode head, int m, int n) {
         if(head == null || m==0 || n==0 )
             return null;
-
         ListNode cur = head;
         ListNode prestart = null;
         ListNode end = null;
@@ -62,14 +63,12 @@ public class Reverse_Linked_List_II_92 {
         for (int i = 1; i<array.length;i++){
             cur.next = new ListNode(array[i]);
             cur = cur.next;
-
         }
         reverseBetween(listNode,2,4);
         while (listNode != null){
             System.out.println(listNode.val);
             listNode = listNode.next;
         }
-
     }
 }
 

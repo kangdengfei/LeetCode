@@ -6,33 +6,30 @@ import java.util.List;
 /**
  * @program: Code
  * @author: KDF
- * @create: 2019-02-01 16:08
- *
- * Given a set of distinct integers, nums, return all possible subsets (the power set).
+ * @create: 2019-02-11 15:47
+ * Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
  *
  * Note: The solution set must not contain duplicate subsets.
  *
  * Example:
  *
- * Input: nums = [1,2,3]
+ * Input: [1,2,2]
  * Output:
  * [
- *   [3],
- *   [1],
  *   [2],
- *   [1,2,3],
- *   [1,3],
- *   [2,3],
+ *   [1],
+ *   [1,2,2],
+ *   [2,2],
  *   [1,2],
  *   []
  * ]
  **/
-public class Subsets_78 {
+public class Subsets_II_90 {
     public static List<List<Integer>> subsets(int[] nums) {
         if(nums == null){
             return null;
         }
-        List<List<Integer>> list = new ArrayList();
+        List list = new ArrayList();
         List<Integer> combinList = new ArrayList();
         for (int i = 0;i<nums.length;i++) {
             subsets(list, combinList, nums, 0, i);
@@ -42,7 +39,9 @@ public class Subsets_78 {
 
     public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start ,int len){
         if(len == 0){
-            list.add(new ArrayList(combinList));
+            if(!list.contains(new ArrayList(combinList))){
+                list.add(new ArrayList(combinList));
+            }
         }
         for(int i = start ;i<nums.length; i++){
             combinList.add(nums[i]);
