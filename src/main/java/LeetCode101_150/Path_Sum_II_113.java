@@ -1,4 +1,5 @@
-package mysolution;
+package LeetCode101_150;
+
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -42,7 +43,7 @@ public class Path_Sum_II_113 {
         return caculateValue(root,list,sum,sumList);
     }
 
-    public static List<List<Integer>>  caculateValue(TreeNode root,List list,int sum,List sumList){
+    public static List<List<Integer>>  caculateValue(TreeNode root, List list, int sum, List sumList){
         //先要将数据加入
         list.add(root.val);
         if(root.left == null && root.right == null){
@@ -86,10 +87,7 @@ public class Path_Sum_II_113 {
         trr.left = new TreeNode(5);
         trr.right = new TreeNode(1);
         return treeNode;
-
-
     }
-
 
     public static void main(String[] args) {
         System.out.println(pathSum(createBinTree(),22) );

@@ -44,9 +44,8 @@ import java.util.List;
  **/
 public class Combination_Sum_II_40 {
 
-    //组合会重复
-    @Deprecated()
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+
+    public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         if(candidates == null)
             return null;
         List<List<Integer>> list = new ArrayList();
@@ -56,7 +55,7 @@ public class Combination_Sum_II_40 {
         return list;
     }
 
-    public void combinationSum2(List<List<Integer>> list,List<Integer> combList,int[] candidates, int target,int start) {
+    public static void combinationSum2(List<List<Integer>> list,List<Integer> combList,int[] candidates, int target,int start) {
         if(target == 0){
             list.add(new ArrayList(combList));
             return;
@@ -70,6 +69,12 @@ public class Combination_Sum_II_40 {
             combList.remove(combList.size()-1);
             while (i < candidates.length - 1 && candidates[i] == candidates[i+1]) i++;
         }
+    }
+
+    public static void main(String[] args) {
+        int [] array = {2,5,2,1,2};
+        System.out.println(combinationSum2(array,5));
+
     }
 }
 

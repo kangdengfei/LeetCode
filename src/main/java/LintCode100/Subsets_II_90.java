@@ -1,6 +1,7 @@
 package LintCode100;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -24,35 +25,40 @@ import java.util.List;
  *   []
  * ]
  **/
+
+// 这题跟78 那题有掉区别 ，通过深度遍历。先将数组排序，
 public class Subsets_II_90 {
-    public static List<List<Integer>> subsets(int[] nums) {
+    public static List<List<Integer>> subsetsWithDup(int[] nums) {
         if(nums == null){
             return null;
         }
         List list = new ArrayList();
         List<Integer> combinList = new ArrayList();
-        for (int i = 0;i<nums.length;i++) {
-            subsets(list, combinList, nums, 0, i);
-        }
+        Arrays.sort(nums);
+//        for (int i = 0;i<nums.length;i++) {
+            subsets(list, combinList, nums, 0, 0);
+//        }
         return list;
     }
 
     public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start ,int len){
-        if(len == 0){
-            if(!list.contains(new ArrayList(combinList))){
-                list.add(new ArrayList(combinList));
-            }
-        }
+//        if(len == 0){
+//            if(!list.contains(new ArrayList(combinList))){
+//                list.add(new ArrayList(combinList));
+//            }
+//        }
+        list.add(new ArrayList(combinList));
         for(int i = start ;i<nums.length; i++){
             combinList.add(nums[i]);
             subsets(list,combinList,nums,i+1,len--);
             combinList.remove(combinList.size()-1);
+            while (i<nums.length-1 && nums[i] == nums[i+1]) i++;
         }
     }
 
     public static void main(String[] args) {
-        int [] array = {1,2,2};
-        System.out.println(subsets(array));
+        int [] array = {1,2,2,2};
+        System.out.println(subsetsWithDup(array));
     }
 }
 
