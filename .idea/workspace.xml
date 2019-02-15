@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_II_45.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,20 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pascals_Triangle_118.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Pascals_Triangle_118.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="58" column="21" selection-start-line="32" selection-start-column="8" selection-end-line="58" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#637#652#0" expanded="true" />
-                <element signature="e#749#758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Pascals_Triangle_II_119.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Pascals_Triangle_II_119.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,18 +94,30 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="323">
-                <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+                <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Combination_Sum_39.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Combination_Sum_39.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_39.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jump_Game_II_45.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_II_45.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -156,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Element_27.java" />
         <option value="$PROJECT_DIR$/src/main/java/LintCode100/Implement_strStr_28.java" />
         <option value="$PROJECT_DIR$/src/main/java/LintCode100/Divide_Two_Integers_29.java" />
         <option value="$PROJECT_DIR$/src/main/java/LintCode100/Search_in_Rotated_Sorted_Array_33.java" />
@@ -207,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_121.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/alindrome_Number_9.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Palindrome_Number_9.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_39.java" />
       </list>
     </option>
   </component>
@@ -611,7 +608,7 @@
       <workItem from="1548731248542" duration="5877000" />
       <workItem from="1548815573148" duration="7701000" />
       <workItem from="1548839611201" duration="21760000" />
-      <workItem from="1549847959612" duration="36898000" />
+      <workItem from="1549847959612" duration="37157000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -697,11 +694,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550203150133</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="开始刷leetcode 100-150题">
+      <created>1550210882540</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550210882540</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526038000" />
+    <option name="totallyTimeSpent" value="526297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1447,13 +1451,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Minimum_Path_Sum_64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Merge_Two_Sorted_Lists_21.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1828,7 +1825,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="323">
-            <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
@@ -1836,8 +1833,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_39.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_II_45.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
