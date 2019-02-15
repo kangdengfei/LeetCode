@@ -1,7 +1,5 @@
-1. 
-2.
 + [3.Longest Substring Without Repeating Characters](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Substring_Without_Repeating_Characters_3.java)<br>
-[5.Longest Palindromic Substring](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Palindromic_Substring_5.java)<br>
++ [5.Longest Palindromic Substring](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Palindromic_Substring_5.java)<br>
 [7.Reverse Integer ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Reverse_Integer_7.java)<br>
 [9.Palindrome Number](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Palindrome_Number_9.java)<br>
 [11.Container With Most Water](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Container_With_Most_Water_11.java)<br>
