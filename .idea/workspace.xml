@@ -1,80 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Postorder_Traversal_145.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Preorder_Traversal_144.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Pascals_Triangle_118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Pascals_Triangle_II_119.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Reorder_List_143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Single_Number_136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Single_Number_II_137.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Sum_Root_to_Leaf_Numbers_129.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeLint.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Flatten_Binary_Tree_to_Linked_List_114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Flatten_Binary_Tree_to_Linked_List_114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Symmetric_Tree_101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Symmetric_Tree_101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Binary_Tree_Inorder_Traversal_94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Binary_Tree_Inorder_Traversal_94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Combination_Sum_II_40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_II_40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Container_With_Most_Water_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Container_With_Most_Water_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Decode_Ways_91.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Decode_Ways_91.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Divide_Two_Integers_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Divide_Two_Integers_29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Find_First_and_Last_Position_of_Element_in_Sorted_Array_34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Find_First_and_Last_Position_of_Element_in_Sorted_Array_34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/First_Missing_Positive_41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/First_Missing_Positive_41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Generate_Parentheses_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Generate_Parentheses_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Group_Anagrams_49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Group_Anagrams_49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Implement_strStr_28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Implement_strStr_28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Insert_Interval_57.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Insert_Interval_57.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Jump_Game_55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_55.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Length_of_Last_Word_58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Length_of_Last_Word_58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Letter_Combinations_of_a_Phone_Number_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Letter_Combinations_of_a_Phone_Number_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Longest_Common_Prefix_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Longest_Common_Prefix_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Longest_Palindromic_Substring_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Longest_Palindromic_Substring_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Longest_Substring_Without_Repeating_Characters_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Longest_Substring_Without_Repeating_Characters_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Maximum_Subarray_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Maximum_Subarray_53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Median_of_Two_Sorted_Arrays_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Median_of_Two_Sorted_Arrays_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Merge_Intervals_56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Merge_Intervals_56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Merge_Sorted_Array_88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Merge_Sorted_Array_88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Merge_Two_Sorted_Lists_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Merge_Two_Sorted_Lists_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Merge_k_Sorted_Lists_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Merge_k_Sorted_Lists_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Minimum_Path_Sum_64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Minimum_Path_Sum_64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Partition_List_86.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Partition_List_86.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Permutation_Sequence_60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutation_Sequence_60.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Permutations_46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Permutations_II_47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_II_47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Regular_Expression_Matching_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Regular_Expression_Matching_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Duplicates_from_Sorted_Array_26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Duplicates_from_Sorted_List_II_82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_List_II_82.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Element_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Element_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Nth_Node_From_End_of_List_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Nth_Node_From_End_of_List_19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Restore_IP_Addresses_93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Restore_IP_Addresses_93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Reverse_Integer_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Reverse_Integer_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Reverse_Linked_List_II_92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Reverse_Linked_List_II_92.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Roman_to_Integer_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Roman_to_Integer_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Rotate_List_61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Rotate_List_61.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Same_Tree_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Same_Tree_100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Search_Insert_Position_35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Search_Insert_Position_35.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Search_in_Rotated_Sorted_Array_33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Search_in_Rotated_Sorted_Array_33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Simplify_Path_71.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Simplify_Path_71.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Spiral_Matrix_54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Spiral_Matrix_54.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Subsets_78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Subsets_78.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Subsets_II_90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Subsets_II_90.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Swap_Nodes_in_Pairs_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Swap_Nodes_in_Pairs_24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Three_Sum_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Three_Sum_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Trapping_Rain_Water_42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Trapping_Rain_Water_42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Unique_Binary_Search_Trees_96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Unique_Binary_Search_Trees_96.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Unique_Binary_Search_Trees_II_95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Unique_Binary_Search_Trees_II_95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Unique_Paths_II_63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Unique_Paths_II_63.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LintCode100/Valid_Parentheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Valid_Parentheses_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysolution/Evaluate_Reverse_Polish_Notation_150.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Evaluate_Reverse_Polish_Notation_150.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mysolution/Triangle_120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Triangle_120.java" afterDir="false" />
-    </list>
+    <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Best_Time_to_Buy_and_Sell_Stock_121.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Best_Time_to_Buy_and_Sell_Stock_121.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_121.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
@@ -183,16 +110,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="alindrome_Number_9.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/alindrome_Number_9.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="494">
+                <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -219,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LintCode100/Swap_Nodes_in_Pairs_24.java" />
         <option value="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Duplicates_from_Sorted_Array_26.java" />
         <option value="$PROJECT_DIR$/src/main/java/LintCode100/Remove_Element_27.java" />
         <option value="$PROJECT_DIR$/src/main/java/LintCode100/Implement_strStr_28.java" />
@@ -270,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Single_Number_136.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Single_Number_II_137.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_121.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/alindrome_Number_9.java" />
       </list>
     </option>
   </component>
@@ -372,6 +306,116 @@
       <recent name="LeetCode101_150" />
       <recent name="" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -564,7 +608,7 @@
       <workItem from="1548731248542" duration="5877000" />
       <workItem from="1548815573148" duration="7701000" />
       <workItem from="1548839611201" duration="21760000" />
-      <workItem from="1549847959612" duration="34472000" />
+      <workItem from="1549847959612" duration="34715000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -636,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549959022169</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="开始刷leetcode 100-150题">
+      <created>1550202968043</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550202968043</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="523612000" />
+    <option name="totallyTimeSpent" value="523855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1379,26 +1430,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_II_47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutation_Sequence_60.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1773,6 +1804,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/alindrome_Number_9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="494">
+            <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
