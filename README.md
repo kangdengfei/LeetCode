@@ -1,5 +1,6 @@
-
-[3.Longest Substring Without Repeating Characters](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Substring_Without_Repeating_Characters_3.java)<br>
+1. 
+2.
++ [3.Longest Substring Without Repeating Characters](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Substring_Without_Repeating_Characters_3.java)<br>
 [5.Longest Palindromic Substring](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Palindromic_Substring_5.java)<br>
 [7.Reverse Integer ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Reverse_Integer_7.java)<br>
 [9.Palindrome Number](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Palindrome_Number_9.java)<br>
@@ -22,7 +23,7 @@
 [39.Combination Sum](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Combination_Sum_39.java)<br>
 [40Combination Sum II ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Combination_Sum_II_40.java)<br>
 [41.First Missing Positive](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/First_Missing_Positive_41.java)<br>
-[45.Jump Game II  ]()
+[Jump Game II  ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Jump_Game_II_45.java)<br>
 [二分查找](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinarySearch.java)<br>
 [快速排序](https://github.com/kangdengfei/Code/blob/master/src/main/java/QuickSort.java)<br>
 [回溯算法](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution1.java)<br>
