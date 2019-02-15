@@ -1,8 +1,8 @@
 
 [3.Longest Substring Without Repeating Characters](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Longest_Substring_Without_Repeating_Characters_3.java)<br>
-[5.Longest Palindromic Substring](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Longest_Palindromic_Substring_5.java)
-[7.Reverse Integer ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Reverse_Integer_7.java)
-[9.Palindrome Number](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Palindrome_Number_9.java)
+[5.Longest Palindromic Substring](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Longest_Palindromic_Substring_5.java)<br>
+[7.Reverse Integer ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Reverse_Integer_7.java)<br>
+[9.Palindrome Number](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Palindrome_Number_9.java)<br>
 
 [二分查找](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinarySearch.java)<br>
 [快速排序](https://github.com/kangdengfei/Code/blob/master/src/main/java/QuickSort.java)<br>
