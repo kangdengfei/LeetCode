@@ -30,6 +30,16 @@ package LeetCode101_150;
  **/
 public class Flatten_Binary_Tree_to_Linked_List_114  {
     public void flatten(TreeNode root) {
+        TreeNode head = new TreeNode(-1);
+        TreeNode cur = head;
+    }
+    public  void transferflatten(TreeNode root,TreeNode cur){
+        if(root == null){
+            return ;
+        }
+        cur.right = root;
+        cur = cur.right;
+        transferflatten(root.left,cur);
 
     }
 }

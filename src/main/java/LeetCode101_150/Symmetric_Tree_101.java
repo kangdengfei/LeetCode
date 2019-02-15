@@ -1,10 +1,5 @@
 package LeetCode101_150;
 
-import LintCode100.ListNode;
-
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @program: Code
  * @author: KDF
