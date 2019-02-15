@@ -4,6 +4,9 @@
 [7.Reverse Integer ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Reverse_Integer_7.java)<br>
 [9.Palindrome Number](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Palindrome_Number_9.java)<br>
 
+[11.Container With Most Water](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Container_With_Most_Water_11.java)<br>
+[13.Roman to Integer](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Roman_to_Integer_13.java)<br>
+[14.Longest Common Prefix  ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Longest_Common_Prefix_14.java)
 [二分查找](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinarySearch.java)<br>
 [快速排序](https://github.com/kangdengfei/Code/blob/master/src/main/java/QuickSort.java)<br>
 [回溯算法](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution1.java)<br>
