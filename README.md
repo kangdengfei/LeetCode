@@ -1,3 +1,9 @@
+
+[Longest Substring Without Repeating Characters](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Longest_Substring_Without_Repeating_Characters_3.java)<br>
+[Longest Palindromic Substring(https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LintCode100/Longest_Palindromic_Substring_5.java)
+
+
+
 [二分查找](https://github.com/kangdengfei/Code/blob/master/src/main/java/BinarySearch.java)<br>
 [快速排序](https://github.com/kangdengfei/Code/blob/master/src/main/java/QuickSort.java)<br>
 [回溯算法](https://github.com/kangdengfei/Code/blob/master/src/main/java/Solution1.java)<br>
