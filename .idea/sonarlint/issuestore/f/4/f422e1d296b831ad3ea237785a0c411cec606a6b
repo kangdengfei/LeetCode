@@ -1,0 +1,4 @@
+
+Wsquid:S2094"BRemove this empty class, write its code or make it an "interface".(ύξεθ
+csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ύξεθ
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(χ•κψÿÿÿÿ

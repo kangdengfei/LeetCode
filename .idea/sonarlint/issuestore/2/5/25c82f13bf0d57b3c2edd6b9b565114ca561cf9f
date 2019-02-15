@@ -1,0 +1,12 @@
+
+‰ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Á–îÁ8¹°¡½Š-
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷•êšøÿÿÿÿ
+csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(íó™à
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ëÓ›V8çÔµ½Š-
+8squid:S1643"Use a StringBuilder instead.(Á–îÁ8ãÚ–½Š-
+[squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Èš½Š-
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¼ìÏ¯8ÇÊÊ½Š-
+qsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ş¯¥ıÿÿÿÿ8ø ‰½Š-
+‰ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8½Š-
+=squid:S1643"Use a StringBuilder instead.(äñ²ğûÿÿÿÿ8«‰€ÀŠ-

@@ -1,0 +1,12 @@
+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê†‰ÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨‚¥©ýÿÿÿÿ
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Êí‹Û
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡¼µµ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ïÃÛ¼þÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡ô’Óúÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÜÄ–‘
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¾‹Óÿÿÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áûŠ”

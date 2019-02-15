@@ -1,0 +1,7 @@
+
+Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8ÚÉ¹Š-
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÕŒï¯ÿÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(³à¤¥8¿Ú¸¸Š-
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ıŒŒŞşÿÿÿÿ8ÚÉ¹Š-
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷•êšøÿÿÿÿ

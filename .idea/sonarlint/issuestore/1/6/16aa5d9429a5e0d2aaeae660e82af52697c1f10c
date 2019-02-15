@@ -1,0 +1,33 @@
+
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÍÊªæüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹øü‰
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ï×ÚÜúÿÿÿÿ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(—ü³¤
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³¥´úÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ĞËÏ½ùÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÿ®±úÿÿÿÿ
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡õˆüÿÿÿÿ
+Rsquid:S2589"8Remove this expression which always evaluates to "false"(Š´íÉûÿÿÿÿ
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¯¹Ş—
+Rsquid:S1854"8Remove this useless assignment to local variable "node".(‘¨µÁøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ ÂÕ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ¨ïÌüÿÿÿÿ
+Rsquid:S1854"8Remove this useless assignment to local variable "flag".(»Øµşÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(É›áéüÿÿÿÿ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§‡–¦
+Csquid:S1481")Remove this unused "node" local variable.(‘¨µÁøÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(©ñ‚úıÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ı„ğ³şÿÿÿÿ
