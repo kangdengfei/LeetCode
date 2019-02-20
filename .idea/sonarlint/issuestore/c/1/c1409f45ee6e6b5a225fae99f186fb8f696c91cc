@@ -1,5 +1,0 @@
-
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(÷•êšøÿÿÿÿ
-lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ý˜üð8æÎ‘ò‰-
-nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ñù£–8Èž˜ò‰-
-csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªãÒÇ

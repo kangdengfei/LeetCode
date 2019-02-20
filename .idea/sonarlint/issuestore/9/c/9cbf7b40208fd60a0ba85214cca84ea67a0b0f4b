@@ -1,8 +1,0 @@
-
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‚óÝäüÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿®”õýÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
-wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "array".(Ìò˜Èùÿÿÿÿ
-csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ò‚½¾
-@squid:S1172"&Remove these unused method parameters.(´Ô¬äøÿÿÿÿ

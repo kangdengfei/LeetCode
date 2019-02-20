@@ -1,9 +1,0 @@
-
-Nsquid:S1854"9Remove this useless assignment to local variable "array".(Λ–Λ
-@squid:S1168"+Return an empty collection instead of null.(¥Ήο
-csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ΪΜίΉ
-Qsquid:S1854"<Remove this useless assignment to local variable "nodeList".(¦§¶—
-?squid:S1481"*Remove this unused "array" local variable.(Λ–Λ
-Bsquid:S1481"-Remove this unused "nodeList" local variable.(¦§¶—
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.( ¨όκόÿÿÿÿ

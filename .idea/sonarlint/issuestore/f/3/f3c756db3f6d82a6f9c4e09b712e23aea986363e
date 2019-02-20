@@ -1,2 +1,7 @@
 
-Vsquid:S2094"BRemove this empty class, write its code or make it an "interface".(»‰à|
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(±¤ª¹8ª…ãš-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ê¤«Œ8åíáš-
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰³×ûÿÿÿÿ8îÍÌš-

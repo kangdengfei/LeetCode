@@ -15,7 +15,7 @@ package mysolution;
 public class Reverse_Words_in_a_String_151 {
 
     public static String reverseWords(String s) {
-        String[] split = s.split(" ");
+        String[] split = s.trim().split(" ");
         StringBuilder stringBuilder = new StringBuilder();
         for (String string : split){
             stringBuilder.append(reverseWord(string)).append(" ");
@@ -37,7 +37,7 @@ public class Reverse_Words_in_a_String_151 {
 
 
     public static void main(String[] args) {
-        String string = "the sky is blue";
+        String string = " a b";
         System.out.println(reverseWords(string));
     }
 }

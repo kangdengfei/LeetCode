@@ -1,11 +1,11 @@
 
-Osquid:S1854"5Remove this useless assignment to local variable "k".(±ÒÑ²ÿÿÿÿÿ
-hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÖşìıÿÿÿÿ
-@squid:S1481"&Remove this unused "k" local variable.(±ÒÑ²ÿÿÿÿÿ
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(¦ü‹
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡Ù”©
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
+Osquid:S1854"5Remove this useless assignment to local variable "k".(±ÒÑ²ÿÿÿÿÿ
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(ô´ëİ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡Ù”©
+hsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËÖşìıÿÿÿÿ
+@squid:S1481"&Remove this unused "k" local variable.(±ÒÑ²ÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
