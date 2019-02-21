@@ -1,4 +1,4 @@
-package mysolution;
+package LeetCode151_200;
 
 /**
  * @program: Code
