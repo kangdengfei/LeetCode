@@ -1,8 +1,8 @@
 
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ
-1squid:S1220""Move this file to a named package.
-@squid:S1168"+Return an empty collection instead of null.(¥¹ï
-Zsquid:S2259"EA "NullPointerException" could be thrown; "combion" is nullable here.(«Ö¼Á
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(«Ö¼Á
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+1squid:S1220""Move this file to a named package.
+Zsquid:S2259"EA "NullPointerException" could be thrown; "combion" is nullable here.(«Ö¼Á
