@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Contains_Duplicate_217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Contains_Duplicate_II_219.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Count_Primes_204.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Course_Schedule_207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Course_Schedule_II_210.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Delete_Node_in_a_Linked_List_237.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Different_Ways_to_Add_Parentheses_241.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/House_Robber_II_213.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Minimum_Size_Subarray_Sum_209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Power_of_Two_231.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Remove_Linked_List_Elements_203.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode201_250/Reverse_Linked_List_206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysolution/All_Paths_From_Source_to_Target_797.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysolution/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinTreeTraverse$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinTreeTraverse$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinTreeTraverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinTreeTraverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solution_Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Solution_Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test1.class" afterDir="false" />
-    </list>
+    <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,8 +117,8 @@
       <file leaf-file-name="Different_Ways_to_Add_Parentheses_241.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Different_Ways_to_Add_Parentheses_241.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+            <state relative-caret-position="1083">
+              <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -264,9 +236,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="841" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -535,7 +506,7 @@
       <workItem from="1550677273537" duration="771000" />
       <workItem from="1550727664337" duration="6582000" />
       <workItem from="1550746960482" duration="13129000" />
-      <workItem from="1550895420293" duration="11360000" />
+      <workItem from="1550895420293" duration="11917000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -670,11 +641,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550761024678</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add some problems">
+      <created>1550989066282</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1550989066282</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575335000" />
+    <option name="totallyTimeSpent" value="575892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,7 +677,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5035765" side_tool="true" weight="0.31546134" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49427754" visible="true" weight="0.27431422" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" weight="0.27431422" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49499285" weight="0.24189526" />
       <window_info id="Capture Tool" order="2" />
@@ -1971,8 +1949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Different_Ways_to_Add_Parentheses_241.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="1083">
+          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
