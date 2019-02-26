@@ -54,6 +54,7 @@
 + [102.Binary Tree Level Order Traversal](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode101_150/Binary_Tree_Level_Order_Traversal_102.java)<br>
 + [103.Binary Tree Zigzag Level Order Traversal ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode101_150/Binary_Tree_Zigzag_Level_Order_Traversal_103.java)
 + [104.Maximum Depth of Binary Tree ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode101_150/Maximum_Depth_of_Binary_Tree_104.java)<br>
++ [105.Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Preorder_and_Inorder_105.java)<br>
 + [107.Binary Tree Level Order Traversal II]()
 + [109.Convert Sorted List to Binary Search Tree ]()
 + [111.Minimum Depth of Binary Tree ]()
