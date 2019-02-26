@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Preorder_and_Inorder_105.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,15 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Minimum_Size_Subarray_Sum_209.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Minimum_Size_Subarray_Sum_209.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Delete_Node_in_a_Linked_List_237.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Delete_Node_in_a_Linked_List_237.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,11 +64,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Construct_Binary_Tree_from_Preorder_and_Inorder_105.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Construct_Binary_Tree_from_Preorder_and_Inorder_105.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Preorder_and_Inorder_105.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="-128">
+              <caret line="60" column="64" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Construct_Binary_Tree_from_Inorder_and_Postorder_106.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -96,7 +97,7 @@
       <file leaf-file-name="Different_Ways_to_Add_Parentheses_241.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Different_Ways_to_Add_Parentheses_241.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="717">
+            <state relative-caret-position="1064">
               <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,7 +109,7 @@
       <file leaf-file-name="Best_Time_to_Buy_and_Sell_Stock_II_122.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_II_122.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
+            <state relative-caret-position="627">
               <caret line="33" column="51" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="51" />
             </state>
           </provider>
@@ -130,6 +131,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -146,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Preorder_Traversal_144.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Reorder_List_143.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Pascals_Triangle_118.java" />
@@ -197,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode201_250/Different_Ways_to_Add_Parentheses_241.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_II_122.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Preorder_and_Inorder_105.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java" />
       </list>
     </option>
   </component>
@@ -244,7 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,8 +285,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,9 +320,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Construct_Binary_Tree_from_Preorder_and_Inorder_105">
+  <component name="RunManager" selected="Application.Construct_Binary_Tree_from_Inorder_and_Postorder_106">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Construct_Binary_Tree_from_Inorder_and_Postorder_106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode101_150.Construct_Binary_Tree_from_Inorder_and_Postorder_106" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode101_150.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Construct_Binary_Tree_from_Preorder_and_Inorder_105" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode101_150.Construct_Binary_Tree_from_Preorder_and_Inorder_105" />
@@ -362,17 +375,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCode201_250.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mysolution.Test" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mysolution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,19 +421,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Course_Schedule_II_210" />
       <item itemvalue="Application.Contains_Duplicate_II_219" />
       <item itemvalue="Application.Different_Ways_to_Add_Parentheses_241" />
       <item itemvalue="Application.Construct_Binary_Tree_from_Preorder_and_Inorder_105" />
+      <item itemvalue="Application.Construct_Binary_Tree_from_Inorder_and_Postorder_106" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Construct_Binary_Tree_from_Inorder_and_Postorder_106" />
         <item itemvalue="Application.Construct_Binary_Tree_from_Preorder_and_Inorder_105" />
         <item itemvalue="Application.Different_Ways_to_Add_Parentheses_241" />
         <item itemvalue="Application.Contains_Duplicate_II_219" />
         <item itemvalue="Application.Course_Schedule_II_210" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +506,8 @@
       <workItem from="1550727664337" duration="6582000" />
       <workItem from="1550746960482" duration="13129000" />
       <workItem from="1550895420293" duration="11917000" />
-      <workItem from="1551091247525" duration="4273000" />
+      <workItem from="1551091247525" duration="4544000" />
+      <workItem from="1551177094352" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -653,11 +656,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551091376278</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add some problems">
+      <created>1551148246350</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1551148246350</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="580165000" />
+    <option name="totallyTimeSpent" value="581727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +697,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49499285" weight="0.24189526" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19313304" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="right" id="Database" order="5" weight="0.3290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1604,11 +1614,47 @@
           <properties />
           <option name="timeStamp" value="236" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="237" />
+      <option name="time" value="243" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1616,13 +1662,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_II_45.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1883,9 +1922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1946,7 +1982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Different_Ways_to_Add_Parentheses_241.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
+        <state relative-caret-position="1064">
           <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1956,7 +1992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_II_122.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="627">
           <caret line="33" column="51" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="51" />
         </state>
       </provider>
@@ -1977,8 +2013,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Preorder_and_Inorder_105.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        <state relative-caret-position="-128">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Construct_Binary_Tree_from_Inorder_and_Postorder_106.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
