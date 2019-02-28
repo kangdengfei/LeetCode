@@ -60,7 +60,7 @@ public class Word_Break_139 {
         }
         Queue queue = new LinkedList();
         ((LinkedList) queue).offer(-1);
-        Set set = new HashSet();
+        Set set = new HashSet(); // 去重避免重复计算
 
         while (!queue.isEmpty()){
             int index = (int) ((LinkedList) queue).pop();
