@@ -24,21 +24,21 @@ package LeetCode1_100;
  * Output: 49
  **/
 public class Container_With_Most_Water_11 {
-    //o(n2)
-    public int maxArea(int[] height) {
-        if(height == null || height.length == 0)
-            return 0;
-        int area = 0;
-        for(int i = 0;i<height.length;i++){
-            for(int j =i+1 ;j<height.length;j++){
-                int len = j - i;
-                int h = Math.min(height[i],height[j]);
-                area = Math.max(area,len*h);
-            }
+        //o(n2)
+        public int maxArea(int[] height) {
+            if(height == null || height.length == 0)
+                return 0;
+            int area = 0;
+            for(int i = 0;i<height.length;i++){
+                for(int j =i+1 ;j<height.length;j++){
+                    int len = j - i;
+                    int h = Math.min(height[i],height[j]);
+                    area = Math.max(area,len*h);
+                }
 
+            }
+            return area;
         }
-        return area;
-    }
 
     //o(n)
     public int maxAreaV2(int[] height){
