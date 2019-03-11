@@ -1,5 +1,9 @@
 package LeetCode1_100;
 
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @program: Code
  * @author: KDF
@@ -62,9 +66,17 @@ public class Remove_Duplicates_from_Sorted_Array_26 {
         }
         return len;
     }
+    public static  int removeDuplicatesV2(int[] nums) {
+        Set set  = new HashSet(Arrays.asList(nums));
+        return set.size();
+    }
 
-    public static void main(String[] args) {
+
+
+        public static void main(String[] args) {
         int [] array = {0,0,1,1,1,2,2,3,3,4};
+        System.out.println(removeDuplicates(array));
+        System.out.println();
         int len = removeDuplicates(array);
         System.out.println(len);
         for (int i = 0;i<len;i++){

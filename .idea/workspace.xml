@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Word_Search_79.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mysolution/Longest_Increasing_Subsequence_300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_II_80.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Container_With_Most_Water_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Container_With_Most_Water_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_II_47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_II_47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,20 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Remove_Duplicates_from_Sorted_List_II_82.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_List_II_82.java">
+      <file leaf-file-name="Remove_Duplicates_from_Sorted_Array_26.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="688">
+              <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Remove_Element_27.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Element_27.java">
+      <file leaf-file-name="Remove_Duplicates_from_Sorted_Array_II_80.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_II_80.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="453">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -113,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Word_Search_79.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Word_Search_79.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Word_Search_79.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="93" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="93" />
+            <state relative-caret-position="456">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -146,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Best_Time_to_Buy_and_Sell_Stock_121.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/alindrome_Number_9.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Palindrome_Number_9.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Combination_Sum_39.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_II_45.java" />
@@ -197,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_46.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Permutations_II_47.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Word_Search_79.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_II_80.java" />
       </list>
     </option>
   </component>
@@ -307,6 +306,116 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -319,20 +428,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Permutations_46">
+  <component name="RunManager" selected="Application.Remove_Duplicates_from_Sorted_Array_26">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Construct_Binary_Tree_from_Inorder_and_Postorder_106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode101_150.Construct_Binary_Tree_from_Inorder_and_Postorder_106" />
-      <module name="LeetCode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode101_150.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Longest_Increasing_Subsequence_300" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mysolution.Longest_Increasing_Subsequence_300" />
@@ -358,6 +456,17 @@
     </configuration>
     <configuration name="Permutations_46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode1_100.Permutations_46" />
+      <module name="LeetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode1_100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Remove_Duplicates_from_Sorted_Array_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode1_100.Remove_Duplicates_from_Sorted_Array_26" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -420,19 +529,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Construct_Binary_Tree_from_Inorder_and_Postorder_106" />
       <item itemvalue="Application.Word_Break_139" />
       <item itemvalue="Application.Longest_Increasing_Subsequence_300" />
       <item itemvalue="Application.Minimum_Path_Sum_64" />
       <item itemvalue="Application.Permutations_46" />
+      <item itemvalue="Application.Remove_Duplicates_from_Sorted_Array_26" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Remove_Duplicates_from_Sorted_Array_26" />
         <item itemvalue="Application.Permutations_46" />
         <item itemvalue="Application.Minimum_Path_Sum_64" />
         <item itemvalue="Application.Longest_Increasing_Subsequence_300" />
         <item itemvalue="Application.Word_Break_139" />
-        <item itemvalue="Application.Construct_Binary_Tree_from_Inorder_and_Postorder_106" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +622,7 @@
       <workItem from="1551782484228" duration="1353000" />
       <workItem from="1551793556428" duration="457000" />
       <workItem from="1552039335464" duration="3638000" />
-      <workItem from="1552275625292" duration="1708000" />
+      <workItem from="1552275625292" duration="5934000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -697,11 +806,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551326113813</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add some problems">
+      <created>1552279478448</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552279478448</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="600869000" />
+    <option name="totallyTimeSpent" value="605095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -719,13 +835,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32917705" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.32044888" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5035765" side_tool="true" weight="0.31546134" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" weight="0.3042394" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" visible="true" weight="0.3042394" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917705" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49499285" weight="0.24189526" />
       <window_info id="Capture Tool" order="2" />
@@ -739,7 +856,6 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49642345" weight="0.31047383" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.32044888" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1266,19 +1382,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java</url>
-          <line>47</line>
+          <line>51</line>
           <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java</url>
-          <line>50</line>
+          <line>54</line>
           <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java</url>
-          <line>59</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
@@ -1750,13 +1866,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Reverse_Linked_List_206.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Contains_Duplicate_217.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
@@ -2030,13 +2139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_List_II_82.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -2102,8 +2204,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Word_Search_79.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="93" selection-start-line="34" selection-start-column="93" selection-end-line="34" selection-end-column="93" />
+        <state relative-caret-position="456">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_II_80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
         </state>
       </provider>
     </entry>
