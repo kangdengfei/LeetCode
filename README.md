@@ -40,7 +40,7 @@
 + [74.Search a 2D Matrix]()
 + [77.Combinations  ]()
 + [78.Subsets ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Subsets_78.java)<br>
-+ [Word Search](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Word_Search_79)<br>
++ [79.Word Search](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Word_Search_79.java)<br>
 + [82.Remove Duplicates from Sorted List II ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_List_II_82.java)<br>
 + [83.Remove Duplicates from Sorted List  ]()
 + [86.Partition List ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Partition_List_86.java)<br>
