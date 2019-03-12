@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Powxn_50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Powxn_50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode1_100/Powxn_50.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,8 +51,8 @@
       <file leaf-file-name="Powxn_50.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Powxn_50.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="51" column="39" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="74">
+              <caret line="48" column="90" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -513,7 +512,7 @@
       <workItem from="1551793556428" duration="457000" />
       <workItem from="1552039335464" duration="3638000" />
       <workItem from="1552275625292" duration="6658000" />
-      <workItem from="1552375448972" duration="1626000" />
+      <workItem from="1552375448972" duration="1889000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -711,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552299524787</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add some problems">
+      <created>1552377301895</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552377301900</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607445000" />
+    <option name="totallyTimeSpent" value="607708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2149,8 +2155,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Powxn_50.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="74">
+          <caret line="48" column="90" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
         </state>
       </provider>
     </entry>

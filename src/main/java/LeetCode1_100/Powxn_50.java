@@ -46,7 +46,7 @@ public class Powxn_50 {
 
     public static double myPowV2(double x, int n) {
         if (n < 0 && n != Integer.MIN_VALUE){
-            return 1/myPow(x,-1*n);//有问题最小值 n = -2147483648，最大值 n' = -n = 2147483648取不到
+            return 1/myPow(x,-1*n);//有问题最小值 n = -2147483648，最大值 n' = -n = 2147483648取不到,越界
         }
         if (n < 0 && n != Integer.MIN_VALUE)
             return 1/myPow(x,-1*(n+1));
