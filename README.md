@@ -25,6 +25,7 @@
 + [46.Permutations ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Permutations_46.java)<br>
 + [47.Permutations II](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Permutations_II_47.java)<br>
 + [49.Group Anagrams  ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Group_Anagrams_49.java)<br>
++ [50.Pow(x, n)](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Powxn_50.java)<br>
 + [53.Maximum Subarray](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Maximum_Subarray_53.java)<br>
 + [54.Spiral Matrix ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Spiral_Matrix_54.java)<br>
 + [55Jump Game ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Jump_Game_55.java)<br>
