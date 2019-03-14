@@ -58,12 +58,18 @@ public class Reverse_Linked_List_II_92 {
 
     public static void main(String[] args) {
         int [] array = {1,2,3,4,5,6,7};
-        ListNode listNode = new ListNode(array[0]);
-        ListNode cur = listNode;
-        for (int i = 1; i<array.length;i++){
-            cur.next = new ListNode(array[i]);
-            cur = cur.next;
+
+//        ListNode listNode = new ListNode(array[0]);
+//        ListNode cur = listNode;
+//        for (int i = 1; i<array.length;i++){
+//            cur.next = new ListNode(array[i]);
+//            cur = cur.next;
+//        }
+        ListNodeFactory listNodeFactory = new ListNodeFactory();
+        for (int i = 0;i<array.length;i++){
+            listNodeFactory.addLast(new ListNode(array[i]));
         }
+        ListNode listNode = listNodeFactory.first.next;
         reverseBetween(listNode,2,4);
         while (listNode != null){
             System.out.println(listNode.val);

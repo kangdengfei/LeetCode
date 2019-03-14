@@ -301,3 +301,7 @@ _
 /src/main/java/LeetCode1_100/Word_Search_79.java,4/f/4faad7e7176b9fb7fffe80c1b9365680253f34a5
 z
 Jsrc/main/java/LeetCode1_100/Remove_Duplicates_from_Sorted_Array_II_80.java,2/9/29988df355d868557063486647e97f842238bb00
+Y
+)src/main/java/LeetCode1_100/Powxn_50.java,0/7/0740a1a74f23f307b3eca6c8503547a085efb994
+`
+0src/main/java/LeetCode1_100/ListNodeFactory.java,b/e/bec1aed3f02cc448e0dce295f685cb5869309a85

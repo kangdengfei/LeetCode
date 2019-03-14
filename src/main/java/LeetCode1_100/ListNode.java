@@ -9,6 +9,14 @@ public class ListNode {
     int val;
     ListNode next;
     ListNode(int x) { val = x; }
+
+    public void say(){
+        System.out.println(val);
+        if (next != null){
+            next.say();
+        }
+
+    }
 }
 
 
