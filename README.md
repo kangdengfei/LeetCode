@@ -21,6 +21,7 @@
 + [39.Combination Sum](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Combination_Sum_39.java)<br>
 + [40Combination Sum II ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Combination_Sum_II_40.java)<br>
 + [41.First Missing Positive](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/First_Missing_Positive_41.java)<br>
++ [43. Multiply Strings](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Multiply_Strings_43.java)<br>
 + [45.Jump Game II  ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Jump_Game_II_45.java)<br>
 + [46.Permutations ](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Permutations_46.java)<br>
 + [47.Permutations II](https://github.com/kangdengfei/LeetCode/blob/master/src/main/java/LeetCode1_100/Permutations_II_47.java)<br>
