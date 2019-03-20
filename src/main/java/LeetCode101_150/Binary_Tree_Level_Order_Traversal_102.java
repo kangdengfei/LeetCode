@@ -2,9 +2,12 @@ package LeetCode101_150;
 
 
 
+import jdk.nashorn.internal.ir.IdentNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @program: Code
@@ -73,7 +76,42 @@ public class Binary_Tree_Level_Order_Traversal_102 {
         }
         return list;
     }
-}
+
+    /**
+     * 广度遍历
+     * @param root
+     * @return
+     */
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> lists = new ArrayList<>();
+        if (root == null){
+            return lists;
+        }
+
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            List<Integer> list = new ArrayList<>();
+            TreeNode node = null;
+            while (size > 0){
+             node = queue.pop();
+                if (node.left != null){
+                    queue.offer(node.left);
+                }
+                if (node.right != null){
+                    queue.offer(node.right);
+                }
+                list.add(node.val);
+                size--; //少了这个在执行pop()操作时会抛NoSuchElementException
+            }
+            lists.add(list);
+        }
+        return lists;
+
+    }
+
+    }
 
 
 
