@@ -80,7 +80,7 @@ public class Course_Schedule_207 {
 
 
     /**
-     * BFS 基于入读
+     * BFS 基于入度
      * 每一层都是找出当前不需要prerequisite的课程，即等级为0的课程，当扫到这门课里，
      * 把其他需要这门课作为prerequisite的课降一个等级，直到其等级为0时，
      * 把它存到queue中作为其他课程可用的prerequisite课。
@@ -93,8 +93,8 @@ public class Course_Schedule_207 {
         if (numCourses <= 1) return true;
         if (prerequisites.length == 0 || prerequisites[0].length == 0) return true;
 
-        ArrayList[] graph = new ArrayList[numCourses];
-        int[] degree = new int[numCourses];
+        ArrayList[] graph = new ArrayList[numCourses];//当、
+        int[] degree = new int[numCourses];//每门课程的入读
         for (int i = 0; i < numCourses; i++) {
             graph[i] = new ArrayList();
         }

@@ -25,6 +25,7 @@ package LeetCode201_250;
  **/
 /*
 判断一个数是2 的幂次方
+二进制数只有最高位是1，其他位是0，减1后最高为是0，与以后为0
  */
 public class Power_of_Two_231 {
     public boolean isPowerOfTwo(int x) {

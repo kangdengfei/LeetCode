@@ -59,8 +59,6 @@ public class Different_Ways_to_Add_Parentheses_241 {
                         list.add(temp);//别添加错位置
                     }
                 }
-
-
             }
         }
         if (list.isEmpty()){ //已经产生了递归

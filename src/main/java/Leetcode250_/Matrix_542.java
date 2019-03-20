@@ -1,6 +1,5 @@
 package Leetcode250_;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -44,8 +43,9 @@ import java.util.Queue;
  *     There are at least one 0 in the given matrix.
  *     The cells are adjacent in only four directions: up, down, left and right.
  **/
+
 /*
-广度遍历
+广度遍历,遍历当前节点的所有可能性
  */
 public class Matrix_542 {
     public static int[][] updateMatrix(int[][] matrix) {

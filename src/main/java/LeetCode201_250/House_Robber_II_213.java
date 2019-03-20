@@ -24,6 +24,7 @@ package LeetCode201_250;
 /*
 房子是有环的
 分两种情况打劫
+动态规划
  */
 public class House_Robber_II_213 {
     public int rob(int[] nums) {
@@ -39,7 +40,7 @@ public class House_Robber_II_213 {
 
     public int rob(int[] nums,int start,int end){
         int n = end - start +1;
-        int [] dp = new int[n];
+        int [] dp = new int[n];//dp[i]表示打劫到第i个房子时最大的金额。
         dp[0] = nums[start];
         dp[1] = Math.max(nums[start],nums[start+1]);
 

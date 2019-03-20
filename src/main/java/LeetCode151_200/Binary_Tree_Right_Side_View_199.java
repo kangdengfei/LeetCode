@@ -4,6 +4,7 @@ package LeetCode151_200;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * @program: Code
@@ -24,6 +25,9 @@ import java.util.List;
  *  \     \
  *   5     4       <---
  **/
+/*
+这种方法用来连个队列，写起来太累赘了
+ */
 public class Binary_Tree_Right_Side_View_199 {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list= new ArrayList<Integer>();
@@ -68,6 +72,37 @@ public class Binary_Tree_Right_Side_View_199 {
 
         return list;
     }
+
+
+
+    /*
+    层次遍历（广度遍历）找到每一层最后一个元素即可
+     */
+    public List<Integer> rightSideViewV2(TreeNode root) {
+        if (root == null){
+            return null;
+        }
+        List<Integer> list = new ArrayList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            TreeNode node = null;
+            int size = queue.size();
+            while (size > 0){
+                node = ((LinkedList<TreeNode>) queue).pop();
+                if (node.left != null){
+                    queue.offer(node.left);
+                }
+                if (node.right != null){
+                    queue.offer(node.right);
+                }
+                size--;
+            }
+            list.add(node.val);
+        }
+        return list;
+    }
+
 }
 
 
