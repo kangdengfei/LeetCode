@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode250_/IpV4ToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,15 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Minimum_Size_Subarray_Sum_209.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Minimum_Size_Subarray_Sum_209.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Power_of_Two_231.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Power_of_Two_231.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,17 +67,29 @@
       <file leaf-file-name="Binary_Tree_Level_Order_Traversal_102.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Level_Order_Traversal_102.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="1596">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IpV4ToInt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IpV4ToInt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/IpV4ToInt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Word_Ladder_127.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-372">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode151_200/Excel_Sheet_Column_Title_168.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode151_200/Majority_Element_169.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode151_200/Excel_Sheet_Column_Number_171.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode151_200/Factorial_Trailing_Zeroes_172.java" />
@@ -192,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode151_200/Binary_Tree_Right_Side_View_199.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Level_Order_Traversal_102.java" />
         <option value="$PROJECT_DIR$/src/main/java/Leetcode250_/IpV4ToInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java" />
       </list>
     </option>
   </component>
@@ -227,7 +231,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
@@ -240,9 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,12 +275,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode101_150" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Leetcode250_" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IpV4ToInt">
+  <component name="RunManager" selected="Application.Word_Ladder_127">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -366,13 +378,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Reverse_Linked_List_II_92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode1_100.Reverse_Linked_List_II_92" />
+    <configuration name="Word_Ladder_127" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode101_150.Word_Ladder_127" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode1_100.*" />
+          <option name="PATTERN" value="LeetCode101_150.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,19 +431,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Reverse_Linked_List_II_92" />
       <item itemvalue="Application.ListNodeFactory" />
       <item itemvalue="Application.Multiply_Strings_43" />
       <item itemvalue="Application.Matrix_542" />
       <item itemvalue="Application.IpV4ToInt" />
+      <item itemvalue="Application.Word_Ladder_127" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Word_Ladder_127" />
         <item itemvalue="Application.IpV4ToInt" />
         <item itemvalue="Application.Matrix_542" />
         <item itemvalue="Application.Multiply_Strings_43" />
         <item itemvalue="Application.ListNodeFactory" />
-        <item itemvalue="Application.Reverse_Linked_List_II_92" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +535,9 @@
       <workItem from="1552985577361" duration="925000" />
       <workItem from="1552987152396" duration="6797000" />
       <workItem from="1553080019948" duration="5000" />
-      <workItem from="1553265050863" duration="2182000" />
+      <workItem from="1553265050863" duration="2841000" />
+      <workItem from="1553495164203" duration="537000" />
+      <workItem from="1553497417583" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -784,11 +798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553049588558</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="add some problems">
+      <created>1553267504439</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1553267504439</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638484000" />
+    <option name="totallyTimeSpent" value="643592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,7 +821,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="841" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -813,20 +834,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5035765" side_tool="true" weight="0.31546134" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32904148" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49427754" visible="true" weight="0.3037448" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49427754" visible="true" weight="0.30299252" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49499285" weight="0.24189526" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1981402" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
       <window_info anchor="right" id="Database" order="5" weight="0.3290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49642345" weight="0.30922693" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49642345" weight="0.30922693" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
@@ -1921,11 +1942,29 @@
           <properties />
           <option name="timeStamp" value="269" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="270" />
+      <option name="time" value="273" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1933,6 +1972,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Minimum_Size_Subarray_Sum_209.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Power_of_Two_231.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Remove_Linked_List_Elements_203.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Reverse_Linked_List_206.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode151_200/Binary_Tree_Right_Side_View_199.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Level_Order_Traversal_102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="160" column="12" selection-start-line="160" selection-start-column="12" selection-end-line="160" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/List.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2546">
+          <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/IpV4ToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode201_250/Minimum_Size_Subarray_Sum_209.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -2205,7 +2314,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Binary_Tree_Level_Order_Traversal_102.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="1596">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
@@ -2213,7 +2322,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/IpV4ToInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Word_Ladder_127.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
