@@ -58,6 +58,9 @@ package LeetCode101_150;
  * 因为中序遍历中根节点左边为左子树，所以可以记录左子树的长度并在先序遍历中依据这个长度找到左子树的区间，用同样方法可以找到右子树的区间。
  * 递归的建立好左子树和右子树就好
  */
+/*
+前序跟中序构建二叉树
+ */
 public class Construct_Binary_Tree_from_Preorder_and_Inorder_105 {
     public static TreeNode buildTree(int[] preorder, int[] inorder) {
         if(preorder.length != inorder.length || preorder == null || inorder == null){

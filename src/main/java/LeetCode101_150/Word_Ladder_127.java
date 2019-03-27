@@ -91,13 +91,11 @@ public class Word_Ladder_127 {
     }
 
     public static boolean cantranfer(String from,String to){
-        int count = 0;
-        for (int i = 0;i<from.length();i++){
-            if (from.charAt(0) == to.charAt(i) ){
-                count ++;
-            }
+        for(int i = 0, count=0 ; i<to.length() ; i++){
+            if(from.charAt(i)!=to.charAt(i) && ++count>1) return false;
         }
-        return count == 1 ? true:false;
+        return true;
+
     }
 
     public static void main(String[] args) {

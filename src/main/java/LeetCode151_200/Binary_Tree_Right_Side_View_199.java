@@ -26,7 +26,7 @@ import java.util.Queue;
  *   5     4       <---
  **/
 /*
-这种方法用来连个队列，写起来太累赘了
+这种方法用来两个队列，写起来太累赘了
  */
 public class Binary_Tree_Right_Side_View_199 {
     public List<Integer> rightSideView(TreeNode root) {

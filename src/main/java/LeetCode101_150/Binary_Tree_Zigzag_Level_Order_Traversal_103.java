@@ -1,8 +1,6 @@
 package LeetCode101_150;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @program: Code
@@ -75,8 +73,19 @@ public class Binary_Tree_Zigzag_Level_Order_Traversal_103 {
             }
         }
 
+
         return lists;
 
+    }
+
+    public static void main(String[] args) {
+        int head = 0;
+        int []elements = new int[16];
+        head = (head - 1) & (elements.length - 1);
+
+        System.out.println(head);
+        head = (head - 1) & (elements.length - 1);
+        System.out.println(head);
     }
 }
 

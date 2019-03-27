@@ -55,9 +55,12 @@ public class Excel_Sheet_Column_Number_171 {
 
 
     public static void main(String[] args) {
-        System.out.println(titleToNumber("AB"));
-        System.out.println(titleToNumberV2("AB"));
+        System.out.println(titleToNumber("ABCC"));
+        System.out.println(titleToNumberV2("ABCC"));
         System.out.println(Integer.valueOf('B'-64));
+
+        System.out.println('A'+1);
+        System.out.println('a'+1);
     }
 }
 

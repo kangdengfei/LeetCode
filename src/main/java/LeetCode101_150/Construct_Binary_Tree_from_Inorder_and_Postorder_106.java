@@ -20,6 +20,9 @@ package LeetCode101_150;
  *     /  \
  *    15   7
  */
+/*
+中序后序构建二叉树
+ */
 public class Construct_Binary_Tree_from_Inorder_and_Postorder_106 {
     public static TreeNode buildTree(int[] inorder, int[] postorder) {
         if(inorder.length != postorder.length || inorder == null ||postorder == null){
