@@ -27,11 +27,11 @@ public class Jump_Game_55 {
     }
 
     public static boolean canJump2(int[] nums) {
-        int max = 0;
+        int max = 0;//前i-1 个节点能到大的最大距离
         for (int i =0;i<nums.length;i++){
             if(max < i)
                 return false;
-            max = Math.max(max ,i+nums[i]);
+            max = Math.max(max ,i+nums[i]);//当前节点能到大的最大距离
 
         }
         return true;

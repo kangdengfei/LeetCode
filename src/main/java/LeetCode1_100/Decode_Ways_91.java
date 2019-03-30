@@ -5,6 +5,9 @@ package LeetCode1_100;
  * @author: KDF
  * @create: 2018-12-01 17:22
  **/
+/*
+DP
+ */
 public class Decode_Ways_91 {
 //    public static int numDecodings(String s) {
 //        int n = s.length();

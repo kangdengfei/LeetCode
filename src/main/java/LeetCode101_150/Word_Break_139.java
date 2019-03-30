@@ -53,6 +53,7 @@ public class Word_Break_139 {
 
     /*
     BFS
+    从字符串第一个字符开始，看哪几个位置为节点的子字符串在数组里，并把起点位置加入队里
      */
     public static boolean wordBreakBFS(String s, List<String> wordDict) {
         if (s == null || wordDict.size() == 0 || wordDict == null ){
