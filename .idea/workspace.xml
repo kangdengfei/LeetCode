@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33436e29-1a96-4214-b648-a5c78ef6d73b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode250_/ntersection_of_Two_Arrays_II_350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Leetcode250_/Reverse_String_344.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,15 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Longest_Common_Prefix_14.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Longest_Common_Prefix_14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="22" selection-start-line="22" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Longest_Palindromic_Substring_5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode1_100/Longest_Palindromic_Substring_5.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,8 +84,8 @@
       <file leaf-file-name="Intersection_of_Two_Arrays_349.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/Intersection_of_Two_Arrays_349.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+            <state relative-caret-position="333">
+              <caret line="48" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,11 +93,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ntersection_of_Two_Arrays_II_350.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/ntersection_of_Two_Arrays_II_350.java">
+      <file leaf-file-name="Intersection_of_Two_Arrays_II_350.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/Intersection_of_Two_Arrays_II_350.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            <state relative-caret-position="162">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reverse_String_344.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/Reverse_String_344.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -144,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode151_200/Reverse_Words_in_a_String_151.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mysolution/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LeetCode201_250/Course_Schedule_II_210.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode201_250/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode201_250/Remove_Linked_List_Elements_203.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode201_250/Count_Primes_204.java" />
@@ -195,6 +192,9 @@
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Group_Anagrams_49.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeetCode1_100/Jump_Game_55.java" />
         <option value="$PROJECT_DIR$/src/main/java/Leetcode250_/Intersection_of_Two_Arrays_349.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Leetcode250_/ntersection_of_Two_Arrays_II_350.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Leetcode250_/Intersection_of_Two_Arrays_II_350.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Leetcode250_/Reverse_String_344.java" />
       </list>
     </option>
   </component>
@@ -643,7 +643,7 @@
       <workItem from="1553672433553" duration="6688000" />
       <workItem from="1553743671922" duration="3141000" />
       <workItem from="1553756268545" duration="2143000" />
-      <workItem from="1553827114978" duration="14112000" />
+      <workItem from="1553827114978" duration="14738000" />
     </task>
     <task id="LOCAL-00001" summary="21/1">
       <created>1512099197044</created>
@@ -932,11 +932,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553945608043</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add some problems">
+      <created>1553946934882</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1553946934882</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679431000" />
+    <option name="totallyTimeSpent" value="680057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2129,13 +2136,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Path_Sum_II_113.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode101_150/Reorder_List_143.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -2501,18 +2501,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/Intersection_of_Two_Arrays_349.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        <state relative-caret-position="333">
+          <caret line="48" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/ntersection_of_Two_Arrays_II_350.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/Intersection_of_Two_Arrays_II_350.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        <state relative-caret-position="162">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Leetcode250_/Reverse_String_344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
