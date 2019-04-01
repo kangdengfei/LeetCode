@@ -6,6 +6,12 @@ import java.util.Arrays;
  * @create: 2019-01-21 14:24
  **/
 public class BuildMaxHeap {
+    /**
+     * 构建最大堆
+     * @param array
+     * @param index
+     * @param value
+     */
     public static void buildHeapV2(int [] array ,int index ,int value){
         array[index] = value;
         while (index != 0){

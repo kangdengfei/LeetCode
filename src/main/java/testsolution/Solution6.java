@@ -23,20 +23,23 @@ public class  Solution6 {
         System.out.println("---");
         old(5);
         System.out.println(tot);
+        System.out.println(lists);
 
     }
 
 
     public static List<Integer> list = new ArrayList<Integer>();
+    public  static List<List<Integer>> lists = new ArrayList<>();
     public static void  DFS(int []a, int start , int target,int total){
         if(target < 0) return ;
         if (target == 0){
             tot++;
+            lists.add(new ArrayList<Integer>(list));
         }
         for (int i = start; i < a.length; i++){
-//            list.add(a[i]);
+            list.add(a[i]);
             DFS(a,i,target-a[i],total);
-//            list.remove(list.size()-1);
+            list.remove(list.size()-1);
         }
     }
 

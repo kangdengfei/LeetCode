@@ -30,7 +30,7 @@ public class Combinations_77 {
         List<List<Integer>> combs = new ArrayList();
         combine(combs,new ArrayList<Integer>() ,1,n,k);
 //        System.out.println(totoal);
-        System.out.println("------");
+        System.out.println("----------");
         return combs;
     }
 
@@ -48,9 +48,9 @@ public class Combinations_77 {
     }
 
     public static void main(String[] args) {
-        int k = 4;
-        for (int i = 1;i<=4;i++)
-            System.out.println(combine(4,i));
+//        int k = 4;
+//        for (int i = 1;i<=4;i++)
+            System.out.println(combine(4,2));
         System.out.println(totoal);
     }
 }

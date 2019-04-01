@@ -82,7 +82,7 @@ public class Solution40 {
 
     public static void main(String[] args) {
          char [] array = {'a','b','c'};
-//        DFS(1,array.length,array);
+        DFS(1,array.length,array);
         System.out.println("----------");
         DFS2(array,0,array.length);
         System.out.println("----------");
