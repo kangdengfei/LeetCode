@@ -1,7 +1,9 @@
 
-gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(óµó®
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óµó®
 Nsquid:UselessImportCheck",Remove this unused import 'java.util.Queue'.(Äá™ô
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ïÿ•Øüÿÿÿÿ8Ø¡É¶-
+‰ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(ý¶¼å8—¾Î¶-
+Ksquid:S1481"*Remove this unused "total" local variable.(óË üÿÿÿÿ8ƒôÅ¶-
 gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óµó®
 M
 squid:S106"9Replace this use of System.out or System.err by a logger.(Õ’š’
-gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óµó®

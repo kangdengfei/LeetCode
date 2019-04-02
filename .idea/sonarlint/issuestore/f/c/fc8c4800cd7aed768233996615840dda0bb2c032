@@ -1,13 +1,13 @@
 
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êí‹Û8®İŸ-
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡ô’Óúÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê†‰ÿÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áûŠ”
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ïÃÛ¼şÿÿÿÿ
-1squid:S1220""Move this file to a named package.
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÜÄ–‘
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(¨‚¥©ıÿÿÿÿ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¾‹Óÿÿÿÿÿÿ
-esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Êí‹Û
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÜÄ–‘
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ïÃÛ¼şÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ê†‰ÿÿÿÿÿ
 `squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‡¼µµ
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êí‹Û8®İŸ-
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áûŠ”
+1squid:S1220""Move this file to a named package.
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Êí‹Û
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¾‹Óÿÿÿÿÿÿ
