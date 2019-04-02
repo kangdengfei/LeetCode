@@ -57,6 +57,30 @@ public class Path_Sum_112 {
         list.remove(list.size()-1);
     }
 
+
+    public static void combinV2(TreeNode root, int sum,List list){
+        if (root.left == null && root.right == null){
+            int target = 0;
+            for (int i = 0;i<list.size();i++){
+                Integer integer= (Integer)list.get(i);
+                target+= integer.intValue();
+            }
+            if (target == sum){
+                flag = true;
+            }
+        }
+
+        if (root.left != null){
+            list.add(root.left.val);
+            combinV2(root.left,sum,list);
+            list.remove(list.size()-1);
+        }
+        if (root.right != null){
+            list.add(root.right.val);
+            combinV2(root.right,sum,list);
+            list.remove(list.size()-1);
+        }
+    }
     public static TreeNode createBinTree() {
         int [] array = {1,2,3,4,5,6};
         List<TreeNode> nodeList = new LinkedList<TreeNode>();
