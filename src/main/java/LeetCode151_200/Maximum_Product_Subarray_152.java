@@ -22,6 +22,9 @@ package LeetCode151_200;
 /*
  简化点 1:元素都为整数 2:未考虑整数越界
  */
+/*
+还可以通过暴力方法，两次for循环求出其中的乘积最大值
+ */
 public class Maximum_Product_Subarray_152 {
 
     public int maxProduct(int[] nums) {
@@ -30,15 +33,15 @@ public class Maximum_Product_Subarray_152 {
         }
 
         int len = nums.length;
-        int [] mindp = new int[len];
-        int [] maxdp = new int[len];
+        int [] mindp = new int[len];//mindp[i] 表示前i 个元素中乘积的最小值
+        int [] maxdp = new int[len];//maxdp[i] 表示前i 个元素中乘积的最大值
         int max = nums[0];
         mindp[0] = nums[0];
         maxdp[0] = nums[0];
 
         for(int i = 1;i<nums.length;i++) {
-            mindp[i] = Math.min(nums[i],Math.min(maxdp[i-1]*nums[i],mindp[i-1]*nums[i]));
-            maxdp[i] = Math.max(nums[i],Math.max(maxdp[i-1]*nums[i],mindp[i-1]*nums[i]));
+            mindp[i] = Math.min(nums[i],Math.min(maxdp[i-1]*nums[i],mindp[i-1]*nums[i]));//3者的最小值
+            maxdp[i] = Math.max(nums[i],Math.max(maxdp[i-1]*nums[i],mindp[i-1]*nums[i]));//3者的最大值
             max = Math.max(max,maxdp[i]);
         }
 

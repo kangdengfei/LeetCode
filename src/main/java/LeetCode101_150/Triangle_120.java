@@ -22,6 +22,10 @@ import java.util.List;
  *
  * The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).
  **/
+
+/*
+上一层元素从它相邻的两个下层元素中选择较小的那个加到它本身。
+ */
 public class Triangle_120 {
     public int minimumTotal(List<List<Integer>> triangle) {
         int size = triangle.size();

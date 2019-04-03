@@ -23,6 +23,9 @@ package LeetCode151_200;
  * Input: [4,5,6,7,0,1,2]
  * Output: 0
  **/
+/*
+顺序数组查找首选二分查找
+ */
 public class Find_Minimum_in_Rotated_Sorted_Array_153 {
 
     public int findMin(int[] nums) {

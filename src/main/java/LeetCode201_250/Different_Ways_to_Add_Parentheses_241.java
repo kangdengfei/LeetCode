@@ -61,7 +61,7 @@ public class Different_Ways_to_Add_Parentheses_241 {
                 }
             }
         }
-        if (list.isEmpty()){ //已经产生了递归
+        if (list.isEmpty()){ //已经产生了递归,input只有一个值
             list.add(Integer.valueOf(input));
         }
         return list;
