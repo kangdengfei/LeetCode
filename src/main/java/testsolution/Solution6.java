@@ -28,6 +28,9 @@ public class  Solution6 {
     }
 
 
+    /*
+    深度遍历
+     */
     public static List<Integer> list = new ArrayList<Integer>();
     public  static List<List<Integer>> lists = new ArrayList<>();
     public static void  DFS(int []a, int start , int target,int total){
@@ -44,6 +47,9 @@ public class  Solution6 {
     }
 
 
+    /*
+    动态规划
+     */
   public static void old(int target){
 
       long[] dp = new long[target+1]; //dp[i]代表拼凑i元的方法数

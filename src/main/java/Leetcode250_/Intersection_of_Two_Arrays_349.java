@@ -21,6 +21,9 @@ import java.util.Set;
  * Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
  * Output: [9,4]
  **/
+/*
+先对两个数组排下序
+ */
 public class Intersection_of_Two_Arrays_349 {
     public static int[] intersection(int[] nums1, int[] nums2) {
         Set set = new HashSet<>();

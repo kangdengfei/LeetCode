@@ -28,12 +28,13 @@ public class LISSolution {
         int [] dp = new int [array.length];
         dp [0] =1;
         for (int i = 1 ;i <array.length;i++){
+            dp[i] = 1;
             for (int j = 0;j<i;j++){
                 if (array[i]>array[j] && dp[i]<dp[j]+1){
                     dp[i] = dp[j] + 1;
                 }
             }
-            max = Math.max(max,dp[i]);
+            max = Math.max(max,dp[i]);//找出整个过程中的最大值
         }
         return max;
 
