@@ -57,6 +57,7 @@ public class BuildMaxHeap {
 
     public static void main(String[] args) {
         int []arry = {9,4,6,10,3,8,1,2,5};
+        System.out.println("下沉构建最大堆:");
         buildHeap(arry);
         System.out.println(Arrays.toString(arry));
         System.out.println("堆排序结果如下：");
@@ -65,6 +66,7 @@ public class BuildMaxHeap {
             adjustHeap(arry,0,i);
         }
         System.out.println(Arrays.toString(arry));
+        System.out.println("上浮构建最大堆：");
         int []arry1 = {9,4,6,10,3,8,1,2,5};
         int [] arrayTemp = new int[arry1.length];
         for (int i = 0;i<arry1.length;i++) {

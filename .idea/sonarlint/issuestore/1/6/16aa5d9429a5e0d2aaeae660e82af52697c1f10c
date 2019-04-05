@@ -1,41 +1,41 @@
 
-Csquid:S1481")Remove this unused "node" local variable.(‘¨µÁøÿÿÿÿ
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ ÂÕ
-Rsquid:S1854"8Remove this useless assignment to local variable "flag".(»Øµşÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³¥´úÿÿÿÿ
-esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¯¹Ş—
 usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦³©ø8Ã±›»-
 R
+squid:S106"9Replace this use of System.out or System.err by a logger.(âÿ®±úÿÿÿÿ
+R
 squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
+Rsquid:S2589"8Remove this expression which always evaluates to "false"(Š´íÉûÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ĞËÏ½ùÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ï×ÚÜúÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ ÂÕ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°8Ã±›»-
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(É›áéüÿÿÿÿ
+@squid:S1168"+Return an empty collection instead of null.(¥¹ï
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÍÊªæüÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡õˆüÿÿÿÿ
+Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(©ñ‚úıÿÿÿÿ
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(ˆ¨ïÌüÿÿÿÿ
-Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(ĞËÏ½ùÿÿÿÿ
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı„ğ³şÿÿÿÿ8Ã±›»-
 R
 squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
-Psquid:S2696"6Make the enclosing method "static" or remove this set.(ı„ğ³şÿÿÿÿ
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ8Ã±›»-
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
-esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
 dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§‡–¦
-gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(—ü³¤
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡‰¯ç8Ã±›»-
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(É›áéüÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÍÊªæüÿÿÿÿ
-Rsquid:S1854"8Remove this useless assignment to local variable "node".(‘¨µÁøÿÿÿÿ
-Xsquid:S1155">Use isEmpty() to check whether the collection is empty or not.(©ñ‚úıÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ï×ÚÜúÿÿÿÿ
-Rsquid:S2589"8Remove this expression which always evaluates to "false"(Š´íÉûÿÿÿÿ
-isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡õˆüÿÿÿÿ
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ8Ã±›»-
-zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ8Ã±›»-
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹øü‰
-@squid:S1168"+Return an empty collection instead of null.(¥¹ï
 tsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„Š/8Ã±›»-
 R
-squid:S106"9Replace this use of System.out or System.err by a logger.(âÿ®±úÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç‘›·şÿÿÿÿ
+Rsquid:S1854"8Remove this useless assignment to local variable "flag".(»Øµşÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¹øü‰
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Óñ·°
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(—ü³¤
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³¥´úÿÿÿÿ
+Csquid:S1481")Remove this unused "node" local variable.(‘¨µÁøÿÿÿÿ
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı„ğ³şÿÿÿÿ8Ã±›»-
 1squid:S1220""Move this file to a named package.
-usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óñ·°8Ã±›»-
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ8Ã±›»-
+Rsquid:S1854"8Remove this useless assignment to local variable "node".(‘¨µÁøÿÿÿÿ
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡‰¯ç8Ã±›»-
+esquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¯¹Ş—
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ8Ã±›»-
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ8Ã±›»-
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ı„ğ³şÿÿÿÿ
