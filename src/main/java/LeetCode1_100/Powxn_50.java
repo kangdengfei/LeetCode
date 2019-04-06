@@ -63,6 +63,40 @@ public class Powxn_50 {
             return res * res * x;
     }
 
+    //递归  o(logn)
+    public static double myPowV3(double x,int n){
+        if (n == 0){
+            return 1;
+        }
+        if (n<0){
+            return 1/myPow(x,-n);
+        }
+        if (n % 2 == 1){
+            return x*myPow(x,n-1);
+
+        }
+        return myPow(x*x,n/2);
+    }
+
+
+    //非递归
+
+    public static double mypowV4(double x,int n){
+        if (n < 0){
+            n = -n;
+            x = 1/x;
+        }
+        int res = 1;
+        while (n >0){
+            if ((n & 1) == 1){
+                res *= x;
+            }
+            x *= x;
+            n = n>>2;
+
+        }
+        return res;
+    }
     public static void main(String[] args) {
 
 
