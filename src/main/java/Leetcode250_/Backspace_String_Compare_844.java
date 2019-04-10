@@ -37,61 +37,75 @@ package Leetcode250_;
  * Can you solve it in O(N) time and O(1) space?
  **/
 public class Backspace_String_Compare_844 {
-    public boolean backspaceCompare(String S, String T) {
+    public static boolean backspaceCompare(String S, String T) {
         int s = S.length()-1;
         int t = T.length()-1;
         int a = 0;
         int b = 0;
-        while (s>=0 && t>=0){
-            if (S.charAt(s) == '#'){
+        while (s>=0 || t>=0){
+
+            while (s>= 0 && S.charAt(s) == '#'){
                 s--;
                 a++;
             }
-            while (a>0){
-                s--;
-                a--;
+            while (a>0 ){
+                if (s>= 0 && S.charAt(s) == '#'){
+                    s--;
+                    a--;
+                }else {
+                    a++;
+                    s--;
+                }
+
             }
-            if (T.charAt(t) == '#'){
+            if (t >= 0 && T.charAt(t) == '#'){
                 t--;
                 b++;
             }
-            while (b>0){
-                b--;
+            while (b>0 ){
+                if (t >= 0 && T.charAt(t) != '#'){
+                    b--;
+                    t--;
+                }else if (t >= 0 && T.charAt(t) == '#'){
+                    b++;
+                    t--;
+                }
+
+            }
+
+            if (s < 0 || t < 0){
+                if (s>0){
+                    s--;
+                }
+                if (t>0){
+                    t--;
+                }
+                break;
+            }
+
+            if (s>=0 && t>= 0 && S.charAt(s) != T.charAt(t)){
+                return false;
+            }else {
+                s--;
                 t--;
-            }
-            if (S.charAt(s) != T.charAt(t)){
-                return false;
-            }
-
-        }
-        if (s>=0){
-            int count=0;
-            for (int i = 0;i<=s;i++){
-                if (S.charAt(i) == '#'){
-                    count++;
-                }
-            }
-            if (count >= s/2+1){
-                return true;
-            }else {
-                return false;
-            }
-        }
-
-        if (t>=0){
-            int count=0;
-            for (int i = 0;i<=t;i++){
-                if (T.charAt(i) == '#'){
-                    count++;
-                }
-            }
-            if (count >= t/2+1){
-                return true;
-            }else {
-                return false;
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+
+        String S1 = "rh";
+        String T1 = "#rh";
+
+        String S2 = "a#c";
+        String T2 =  "b";
+
+        String S =  "bxj##tw";
+        String T ="bxo#j##tw";
+
+        System.out.println(backspaceCompare(S,T));
+
     }
 }
 

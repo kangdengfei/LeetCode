@@ -1,8 +1,6 @@
 package LeetCode1_100;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @program: Code
@@ -59,7 +57,27 @@ public class Three_Sum_15 {
         }
     }
 
-    public static void main(String[] args) {
+    public static List<List<Integer>> threeSumV2(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
+        Set set = new HashSet();
+        for (int i = 0 ; i< nums.length-2;i++){
+            while (i> 0 && i< nums.length-2 && nums[i] == nums[i-1]) i++;
+            for (int j = i+1;j<nums.length-1;j++){
+                int d = -(nums[i]+nums[j]);
+                if (set.contains(d)) {
+                    res.add(Arrays.asList(nums[i], nums[j], d));
+                    while (j+1<nums.length && nums[j] == nums[j+1]) j++;
+                }
+                set.add(nums[j]);
+            }
+
+        }
+
+        return res;
+    }
+
+        public static void main(String[] args) {
         int [] array = {-3,-1,-1,-1,-1,0,0,2,2,3,1,4};
         System.out.println(threeSum(array));
     }
