@@ -51,7 +51,32 @@ public class Implement_strStr_28 {
     }
 
 
-    public static void main(String[] args) {
+    public static int strStr3(String haystack, String needle) {
+        if ( haystack == null || haystack.length() < needle.length()){
+            return -1;
+        }
+        if(needle.equals("")){
+            return 0;
+        }
+        char first = needle.charAt(0);
+        int j;
+        for (int i = 0; i<= haystack.length()-needle.length();i++){
+            if (haystack.charAt(i) == first){
+                for ( j = 0;j<needle.length();j++){
+                    if (haystack.charAt(i+j) != needle.charAt(j))
+                        break;
+                }
+                if (j == needle.length())
+                    return i;
+            }
+
+
+        }
+        return -1;
+    }
+
+
+        public static void main(String[] args) {
         String string = "";
         String ne = "";
         System.out.println(strStr(string,ne));

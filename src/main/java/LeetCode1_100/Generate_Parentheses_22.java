@@ -57,7 +57,61 @@ public class Generate_Parentheses_22 {
         }
 
     }
-}
+
+
+    /*
+    DFS
+     */
+    public static List<String> generateParenthesis2(int n) {
+        if(n <=0)
+            return null;
+        List<String> list = new ArrayList<String>();
+        DFS(list,"",0,0,n);
+        return list;
+    }
+    public static void DFS(List<String> list,String temp,int m ,int n,int k){
+        if (temp.length() == 2*k){
+            list.add(temp);
+        }
+        if (m<k){
+            DFS(list,temp+"(",m+1,n,k);
+        }
+        if (m>n && n<k){
+            DFS(list,temp+")",m,n+1,k);
+
+        }
+
+    }
+
+
+    @Deprecated
+    public static List<String> generateParenthesis3(int n) {
+        if(n <=0)
+            return null;
+        List<String> list = new ArrayList<String>();
+        DFS2(list,new StringBuilder(),0,0,n);
+        return list;
+    }
+    public static void DFS2(List<String> list,StringBuilder temp,int m ,int n,int k){
+        if (n == k && m == k){
+            list.add(temp.toString());
+        }
+        if (m<k){
+            DFS2(list,temp.append("("),m+1,n,k);
+        }
+        if (m>n && n<k){
+            DFS2(list,temp.append(")"),m,n+1,k);
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        System.out.println(generateParenthesis2(3));
+        System.out.println(generateParenthesis3(3));
+    }
+
+    }
 
 
 

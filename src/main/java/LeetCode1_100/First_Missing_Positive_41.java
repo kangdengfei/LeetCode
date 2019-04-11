@@ -48,7 +48,26 @@ public class First_Missing_Positive_41 {
         }
         return temp;
     }
-}
+
+    public int firstMissingPositive2(int[] nums) {
+        if (nums == null)
+            return 0;
+        int [] array = new int[nums.length];
+        for (int i = 0;i<nums.length;i++){
+            if (nums[i] >0 && nums[i] <= nums.length){
+                array[nums[i]] = nums[i];
+            }
+
+        }
+        for (int i = 1;i<nums.length;i++){
+            if (nums[i] != i)
+                return i;
+        }
+        return 0;
+    }
+
+
+    }
 
 
 

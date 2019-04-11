@@ -57,13 +57,16 @@ public class Three_Sum_15 {
         }
     }
 
+    /*
+    先排序+加缓存 o(n2)的实际复杂度
+     */
     public static List<List<Integer>> threeSumV2(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
-        Set set = new HashSet();
         for (int i = 0 ; i< nums.length-2;i++){
             while (i> 0 && i< nums.length-2 && nums[i] == nums[i-1]) i++;
-            for (int j = i+1;j<nums.length-1;j++){
+            Set set = new HashSet();
+            for (int j = i+1;j<nums.length;j++){
                 int d = -(nums[i]+nums[j]);
                 if (set.contains(d)) {
                     res.add(Arrays.asList(nums[i], nums[j], d));
@@ -77,8 +80,10 @@ public class Three_Sum_15 {
         return res;
     }
 
-        public static void main(String[] args) {
-        int [] array = {-3,-1,-1,-1,-1,0,0,2,2,3,1,4};
+
+
+    public static void main(String[] args) {
+        int [] array = {-1, 0, 1, 2, -1, -4};
         System.out.println(threeSum(array));
     }
 }

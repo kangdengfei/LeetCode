@@ -1,5 +1,6 @@
 package LeetCode1_100;
 
+import java.text.DateFormatSymbols;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,20 +42,31 @@ public class Combination_Sum_39 {
         return list;
     }
 
+    //DFS
     public void combinationSum(List<List<Integer>> list ,List<Integer> comList,int start,int sum,int len,int[] candidates){
+        //递归终止条件
         if(sum<0)
             return;
+        //处理逻辑
         if(sum == 0){
             list.add(new ArrayList(comList));
             return;
         }
+        //进入下一层
         for(int i = start ;i<len ;i++){
             comList.add(candidates[i]);
             combinationSum(list,comList,i,sum-candidates[i],len,candidates);
             comList.remove(comList.size()-1);
         }
     }
-}
+
+    public void combinationSumV2(List<List<Integer>> list ,List<Integer> comList,int start,int sum,int len,int[] candidates){
+
+    }
+
+
+
+    }
 
 
 
