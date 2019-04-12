@@ -47,29 +47,29 @@ import java.util.Set;
  **/
 
 //解答花的时间有点长
-public class Remove_Duplicates_from_Sorted_Array_26 {
-    public static  int removeDuplicates(int[] nums) {
-        int len = 0;
-        for(int i = 0;i<nums.length;i++){
-            int j = i+1;
-            while (j<nums.length){
-                if( nums[i] == nums[j]){
-                    j++;
-                }else {
-                    nums[len+1] = nums[j];
-                    break;
+    public class Remove_Duplicates_from_Sorted_Array_26 {
+        public static  int removeDuplicates(int[] nums) {
+            int len = 0;
+            for(int i = 0;i<nums.length;i++){
+                int j = i+1;
+                while (j<nums.length){
+                    if( nums[i] == nums[j]){
+                        j++;
+                    }else {
+                        nums[len+1] = nums[j];
+                        break;
+                    }
                 }
-            }
 
-            len++;
-            i = --j;
+                len++;
+                i = --j;
+            }
+            return len;
         }
-        return len;
-    }
-    public static  int removeDuplicatesV2(int[] nums) {
-        Set set  = new HashSet(Arrays.asList(nums));
-        return set.size();
-    }
+        public static  int removeDuplicatesV2(int[] nums) {
+            Set set  = new HashSet(Arrays.asList(nums));
+            return set.size();
+        }
 
 
 

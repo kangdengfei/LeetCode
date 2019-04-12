@@ -10,10 +10,10 @@ public class Jump_Game_II_45 {
         // if (nums.length = =0 || nums == null)
         //     return 0;
         int len = nums.length;
-        int []dp = new int [len];
+        int []dp = new int [len];//到第 个节点时需要跳的步数
         dp [0] = 0;
         int max = nums[0];
-        int cur = 0;
+        int cur = 0; //在当前步数下能能到达的最大距离
         for (int i = 1;i<len ;i++){
             if(max<i)
                 return -1;

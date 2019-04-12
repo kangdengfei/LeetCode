@@ -31,6 +31,7 @@ public class Letter_Combinations_of_a_Phone_Number_17 {
     }
 
     public static void letterCombinations(List<String> list, List<String> comnList,int index,String digits){
+        //递归终止条件
         if(index== digits.length()){
             StringBuilder stringBuilder = new StringBuilder();
             for (String s : comnList){
@@ -42,6 +43,7 @@ public class Letter_Combinations_of_a_Phone_Number_17 {
         String substring = digits.substring(index,index+1);
         Integer integer = Integer.valueOf(substring);
         String str = strs[integer] ;
+        // 进入下一层
         for (int i = 0;i<str.length();i++) {
             comnList.add(str.substring(i,i+1));
             letterCombinations(list, comnList, index + 1, digits);

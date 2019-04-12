@@ -29,7 +29,7 @@ package LeetCode1_100;
  *
  * It doesn't matter what values are set beyond the returned length.
  *
- * 删除制定的元素
+ * 删除指定的元素
  **/
 public class Remove_Element_27 {
     public int removeElement(int[] nums, int val) {

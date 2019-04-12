@@ -17,8 +17,12 @@ package LeetCode1_100;
  * Input: "cbbd"
  * Output: "bb"
  *
- * 遍历数组，以i，i+1为中心,向前向后遍历
+ *
  **/
+
+/*
+遍历数组，以i，i+1为中心,向前向后遍历
+ */
 public class Longest_Palindromic_Substring_5 {
     public static String longestPalindrome(String s) {
         if(s == null){

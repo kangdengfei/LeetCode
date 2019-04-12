@@ -19,6 +19,9 @@ package LeetCode1_100;
  * Output: ""
  * Explanation: There is no common prefix among the input strings.
  **/
+/*
+以第一个单词为基准，后面的单词依次与第一个单词比较，得到最长的共同前缀
+ */
 public class Longest_Common_Prefix_14 {
     public String longestCommonPrefix(String[] strs) {
         if(strs == null){
