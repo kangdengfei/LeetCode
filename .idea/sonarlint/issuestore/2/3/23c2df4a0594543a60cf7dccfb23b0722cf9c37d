@@ -1,11 +1,11 @@
 
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™¯×úÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Âä“¤şÿÿÿÿ
-esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ğÇ§—ÿÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
-1squid:S1220""Move this file to a named package.
-8squid:S1659"#Declare "right" on a separate line.(ºá©×
-8squid:S1659"#Declare "right" on a separate line.(ºá©×
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8õƒà -
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™¯×úÿÿÿÿ8õƒà -
+8squid:S1220""Move this file to a named package.8õƒà -
+?squid:S1659"#Declare "right" on a separate line.(ºá©×8õƒà -
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Âä“¤şÿÿÿÿ8õƒà -
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ8õƒà -
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ğÇ§—ÿÿÿÿÿ8õƒà -
+?squid:S1659"#Declare "right" on a separate line.(ºá©×8ôƒà -
