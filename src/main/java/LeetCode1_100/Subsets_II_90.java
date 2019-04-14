@@ -36,28 +36,23 @@ public class Subsets_II_90 {
         List<Integer> combinList = new ArrayList();
         Arrays.sort(nums);
 //        for (int i = 0;i<nums.length;i++) {
-            subsets(list, combinList, nums, 0, 0);
+            subsets(list, combinList, nums, 0);
 //        }
         return list;
     }
 
-    public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start ,int len){
-//        if(len == 0){
-//            if(!list.contains(new ArrayList(combinList))){
-//                list.add(new ArrayList(combinList));
-//            }
-//        }
+    public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start ){
         list.add(new ArrayList(combinList));
         for(int i = start ;i<nums.length; i++){
             combinList.add(nums[i]);
-            subsets(list,combinList,nums,i+1,len--);
+            subsets(list,combinList,nums,i+1);
             combinList.remove(combinList.size()-1);
             while (i<nums.length-1 && nums[i] == nums[i+1]) i++;
         }
     }
 
     public static void main(String[] args) {
-        int [] array = {1,2,2,2};
+        int [] array = {1,2,2};
         System.out.println(subsetsWithDup(array));
     }
 }

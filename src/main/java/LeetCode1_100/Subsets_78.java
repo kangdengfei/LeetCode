@@ -43,6 +43,7 @@ public class Subsets_78 {
     public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start ,int len){
         if(len == 0){
             list.add(new ArrayList(combinList));
+            return;
         }
         for(int i = start ;i<nums.length; i++){
             combinList.add(nums[i]);

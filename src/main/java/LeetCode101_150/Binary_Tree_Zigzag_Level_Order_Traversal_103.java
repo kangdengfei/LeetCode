@@ -86,6 +86,9 @@ public class Binary_Tree_Zigzag_Level_Order_Traversal_103 {
         System.out.println(head);
         head = (head - 1) & (elements.length - 1);
         System.out.println(head);
+        String string = "1234";
+        List list = new ArrayList();
+
     }
 }
 

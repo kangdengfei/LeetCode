@@ -32,7 +32,7 @@ public class Word_Search_79 {
         for(int i = 0;i<board.length;i++){
             for(int j = 0;j<board[0].length;j++){
                 if (board[i][j] == word.charAt(0)){
-                    if (helper(i,j,0,word,board) == true) //不能直击return，如果是false，进入下一个循环中继续dfs
+                    if (helper(i,j,0,word,board)) //不能直击return，如果是false，进入下一个循环中继续dfs
                         return true;
                 }
             }

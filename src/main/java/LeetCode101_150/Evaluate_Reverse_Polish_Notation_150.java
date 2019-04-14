@@ -1,7 +1,7 @@
 package LeetCode101_150;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.lang.reflect.Array;
+import java.util.*;
 
 /**
  * @program: Code
@@ -45,14 +45,36 @@ import java.util.Set;
  * = 22
  **/
 public class Evaluate_Reverse_Polish_Notation_150 {
-    public void test(){
-        String s = "qwe";
-        s.toCharArray();
-        Set set = new HashSet();
-        set.clear();
-
-
+    List<String> list = Arrays.asList("+","-","*","/");
+    public int evalRPN(String[] tokens) {
+        if (tokens == null || tokens.length == 0){
+            return 0;
+        }
+        Stack<Integer> stack = new Stack();
+        int i = 0;
+        while(i<tokens.length){
+            if (list.contains(tokens[i])){
+                stack.push(process(stack.pop(),stack.pop(),tokens[i]));
+            }else {
+                stack.push(Integer.parseInt(tokens[i]));
+            }
+            i++;
+        }
+        return stack.pop();
     }
+
+    public Integer process(int token1,int token2,String token){
+
+        switch (token){
+            case "+":return token2+token1;
+            case "-":return token2-token1;
+            case "*":return token2*token1;
+            case "/":return token2/token1;
+            default:
+                return null;
+        }
+    }
+
 }
 
 
