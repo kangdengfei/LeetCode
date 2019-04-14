@@ -1,5 +1,7 @@
 package LeetCode101_150;
 
+import org.omg.PortableInterceptor.INACTIVE;
+
 import java.util.List;
 
 /**
@@ -41,7 +43,24 @@ public class Triangle_120 {
         }
         return dp[0];
     }
-}
+
+    int result = Integer.MAX_VALUE;
+    public int minimumTotal2(List<List<Integer>> triangle) {
+        DFS(triangle,0,0,0);
+        return result;
+
+    }
+    public void DFS(List<List<Integer>> triangle,int i,int j,int sum){
+        if (i == triangle.size()){
+            result = Math.min(result,sum);
+            return;
+        }
+        sum += triangle.get(i).get(j);
+        DFS(triangle,i+1,j,sum);
+        DFS(triangle,i+1,j+1,sum);
+    }
+
+    }
 
 
 
