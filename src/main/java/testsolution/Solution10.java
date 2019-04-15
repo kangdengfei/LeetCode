@@ -56,7 +56,7 @@ public class Solution10 {
     }
 
     public static void main(String[] args) {
-        int []array = {1,4};
+        int []array = {1,4,-2,-1,7};
         int max =FindGreatestSumOfSubArray(array);
         System.out.println(max);
         System.out.println(findValue2(array));

@@ -32,9 +32,26 @@ public class IpV4ToInt {
         return rs;
     }
 
+    public static String int2Ip(Integer integer){
+        String []strings = new String [4];
+        String result = "";
+
+        for (int i = 0;i<4;i++){
+
+            int temp = integer & (255<< 8*i);
+            strings[i] = String.valueOf(temp>> 8*i);
+        }
+        for (String s:strings){
+            result = result+":"+s;
+        }
+        return result.substring(1,result.length());
+    }
+
     public static void main(String[] args) {
         String string = "255.255.255.127";
-        System.out.println(transferString(string));
+        Integer integer = transferString(string);
+        System.out.println(integer);
+        System.out.println(int2Ip(integer));
         System.out.println(ip2Int(string));//所以int类型的取值范围为（- 2^31 ~ 2^31 -1）
     }
 }

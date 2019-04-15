@@ -27,7 +27,7 @@ package LeetCode201_250;
 动态规划
  */
 public class House_Robber_II_213 {
-    public int rob(int[] nums) {
+    public static int rob(int[] nums) {
         if(nums == null || nums.length == 0){
             return 0;
         }
@@ -38,16 +38,22 @@ public class House_Robber_II_213 {
         return Math.max(rob(nums,1,nums.length-1),rob(nums,0,nums.length-2));//注意参数传递，防止数组下标越界
     }
 
-    public int rob(int[] nums,int start,int end){
+    public static int rob(int[] nums,int start,int end){
         int n = end - start +1;
         int [] dp = new int[n];//dp[i]表示打劫到第i个房子时最大的金额。
         dp[0] = nums[start];
         dp[1] = Math.max(nums[start],nums[start+1]);
 
-        for(int i = 2;i<end;i++){
+        for(int i = 2;i<n;i++){
             dp[i] = Math.max(dp[i-2]+nums[start+i],dp[i-1]);
         }
         return dp[n-1];
+    }
+
+    public static void main(String[] args) {
+        int [] array = {1,2,3,1};
+        System.out.println(rob(array));
+
     }
 }
 

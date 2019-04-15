@@ -26,8 +26,8 @@ public class LISSolution {
     public static int getMaxlengthV2(int[] array){
         int max = 1;
         int [] dp = new int [array.length];
-        dp [0] =1;
-        for (int i = 1 ;i <array.length;i++){
+//        dp [0] =1;
+        for (int i = 0 ;i <array.length;i++){
             dp[i] = 1;
             for (int j = 0;j<i;j++){
                 if (array[i]>array[j] && dp[i]<dp[j]+1){
@@ -41,9 +41,10 @@ public class LISSolution {
     }
 
     public static void main(String[] args) {
-        int [] array = {2,4,3,5,1,6};
+//        int [] array = {2,4,3,5,1,6};
+        int [] array = {10,9,2,5,3,7,101,18};
         int maxlength = getMaxlength(array);
-        System.out.println(maxlength);
+//        System.out.println(maxlength);
         System.out.println(getMaxlengthV2(array));
     }
 }

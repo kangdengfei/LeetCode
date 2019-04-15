@@ -1,5 +1,7 @@
 package LeetCode201_250;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -27,6 +29,9 @@ import java.util.Set;
  * Output: true
  **/
 public class Contains_Duplicate_217 {
+    /*
+    set 去重
+     */
     public boolean containsDuplicate(int[] nums) {
         if(nums == null)
             return false;
@@ -38,6 +43,22 @@ public class Contains_Duplicate_217 {
                 set.add(nums[i]);
             }
         }
+        return false;
+    }
+
+    /*
+     先排序，再找
+     */
+    public boolean containsDuplicate2(int[] nums) {
+        if(nums == null)
+            return false;
+        Arrays.sort(nums);
+        for (int i = 0;i<nums.length-1;i++){
+           if (nums[i] == nums[i+1]){
+               return true;
+           }
+        }
+
         return false;
     }
 }

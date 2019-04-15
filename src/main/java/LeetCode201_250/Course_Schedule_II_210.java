@@ -48,7 +48,7 @@ public class Course_Schedule_II_210 {
             return a;
         }
         Map<Integer,List<Integer>> map = new HashMap<>();
-        int [] degree = new int[numCourses];
+        int [] degree = new int[numCourses];//当 前点的入度
         int []result = new int[numCourses];
         for (int [] a : prerequisites){
             degree[a[0]]++;
