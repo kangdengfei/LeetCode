@@ -60,6 +60,43 @@ public class Single_Number_II_137 {
 
     }
 
+    public static int singleNumber2(int[] nums) {
+        if (nums == null || nums.length == 0){
+            return 0;
+        }
+        int result = 0;
+        for (int i = 0;i<32;i++){
+            int sum =0;
+            for (int j = 0;j<nums.length;j++){
+                if (((nums[j] >> i) & 1) == 1){
+                    sum++;
+                }
+                sum = sum % 3;
+            }
+            result = result | sum<<i;
+        }
+
+        return result;
+
+    }
+
+    public int singleNumber3(int[] nums) {
+        int ans = 0;
+        for(int i = 0; i < 32; i++) {
+            int sum = 0;
+            for(int j = 0; j < nums.length; j++) {
+                if(((nums[j] >> i) & 1) == 1) {
+                    sum++;
+                    sum %= 3;
+                }
+            }
+            if(sum != 0) {
+                ans |= sum << i;
+            }
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
         int [] nums = {222,222,322,222};
         System.out.println(singleNumber(nums));

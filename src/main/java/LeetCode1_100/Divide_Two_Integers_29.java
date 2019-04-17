@@ -21,6 +21,23 @@ package LeetCode1_100;
  * Output: -2
  **/
 public class Divide_Two_Integers_29 {
+    public static int divide(int dividend, int divisor) {
+        int temp = dividend*divisor > 0 ? 1:-1;
+        int count = 0;
+        dividend = Math.abs(dividend);
+        divisor = Math.abs(divisor);
+        while(dividend >= divisor){
+            dividend -= divisor;
+            count++;
+        }
+        return temp*count;
+    }
+
+    public static void main(String[] args) {
+        int dividend = 7;
+        int divisor = -3;
+        System.out.println(divide(dividend,divisor));
+    }
 }
 
 
