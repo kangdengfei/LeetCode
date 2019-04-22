@@ -10,9 +10,22 @@ public class BuildMaxHeap {
      * 构建最大堆
      * @param array
      * @param index
-     * @param value
+     * @param
      */
-    public static void buildHeapV2(int [] array ,int index ,int value){
+
+    public static void buildHeapV3(int [] array,int index,int val){
+        array[index] = val;
+        while (index != 0){
+            int parent = (index-1) /2;
+            if (array[parent] < array[index]){
+                swap(array,parent,index);
+                index = parent;
+            }else
+                break;
+        }
+    }
+
+        public static void buildHeapV2(int [] array ,int index ,int value){
         array[index] = value;
         while (index != 0){
             int parent = (index-1)/2;

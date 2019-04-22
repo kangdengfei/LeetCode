@@ -37,6 +37,10 @@ package Leetcode250_;
  * Can you solve it in O(N) time and O(1) space?
  **/
 public class Backspace_String_Compare_844 {
+    /*
+    不正确
+     */
+    @Deprecated
     public static boolean backspaceCompare(String S, String T) {
         int s = S.length()-1;
         int t = T.length()-1;
