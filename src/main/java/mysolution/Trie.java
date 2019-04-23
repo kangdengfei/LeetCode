@@ -5,6 +5,9 @@ package mysolution;
  * @author: KDF
  * @create: 2019-04-16
  **/
+/*
+字典树
+ */
 public class Trie {
     public TrieNode root;
     public Trie(){
