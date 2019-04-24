@@ -51,11 +51,14 @@ public class Intersection_of_Two_Arrays_349 {
     }
 
     public static void main(String[] args) {
+        Intersection_of_Two_Arrays_349 instance = new  Intersection_of_Two_Arrays_349();
+        instance.hashCode();
         int[] nums1 = {1,2,2,1};
 
         int[] nums2 =  {2,2};
         System.out.println(Arrays.toString(intersection(nums1,nums2)));
     }
+
 }
 
 

@@ -21,30 +21,25 @@ import java.util.Map;
  **/
 public class Next_Greater_Element_II_503 {
     public static int[] nextGreaterElements(int[] nums) {
-        Map map = new HashMap();
         int [] array = new int[nums.length];
+        Arrays.fill(array, Integer.MIN_VALUE);
         for (int i =0;i<nums.length;i++){
-            if (map.containsKey(nums[i])){
-                array[i] = (int) map.get(nums[i]);
-                continue;
-            }
             for (int j = i;j<nums.length;j++){
                 if (nums[j]>nums[i]){
-                    map.put(nums[i],nums[j]);
+
                     array[i] = nums[j];
                     break;
                 }
             }
-            if (array[i] == 0){
+            if (array[i] == Integer.MIN_VALUE){
                 for (int j = 0;j<i;j++){
                     if (nums[j]>nums[i]){
-                        map.put(nums[i],nums[j]);
                         array[i] = nums[j];
                         break;
                     }
                 }
             }
-            if (array[i] == 0){
+            if (array[i] == Integer.MIN_VALUE){
                 array[i] = -1;
             }
 
@@ -54,7 +49,7 @@ public class Next_Greater_Element_II_503 {
     }
 
     public static void main(String[] args) {
-        int [] array = {1,2,3,2,1};
+        int [] array = {-1,0};
         System.out.println(Arrays.toString(nextGreaterElements(array)));
 
     }

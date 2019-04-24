@@ -43,6 +43,29 @@ public class Path_Sum_II_113 {
         return caculateValue(root,list,sum,sumList);
     }
 
+
+    public static List<List<Integer>> pathSum2(TreeNode root, int sum) {
+        if(root == null)
+            return null;
+        List<List<Integer>> sumList = new ArrayList<List<Integer>>();
+        List<Integer> list =  new ArrayList();
+        DFS(root,list,sum,sumList);
+        return sumList;
+    }
+    public static void DFS(TreeNode root, List list, int sum, List sumList){
+
+        if (root == null )//递归终止条件|| sum < root.val 这个条件得去掉，sum是负数时不成立
+            return;
+        list.add(root.val);
+        if (root.left == null && root.right == null && sum == root.val){
+            sumList.add(new ArrayList(list));
+//            return;  这不是递归终止的条件
+        }
+        DFS(root.left,list,sum-root.val,sumList);
+        DFS(root.right,list,sum-root.val,sumList);
+        list.remove(list.size()-1);
+    }
+
     public static List<List<Integer>>  caculateValue(TreeNode root, List list, int sum, List sumList){
         //先要将数据加入
         list.add(root.val);
@@ -90,7 +113,7 @@ public class Path_Sum_II_113 {
     }
 
     public static void main(String[] args) {
-        System.out.println(pathSum(createBinTree(),22) );
+        System.out.println(pathSum2(createBinTree(),22) );
     }
 
 }
