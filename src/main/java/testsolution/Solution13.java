@@ -67,22 +67,16 @@ public class Solution13 {
         for (int i = 0;i<m;i++){
             if(s1.charAt(i) == s2.charAt(0))
                 dp[i][0]=1;
-            else
-                dp[i][0]=0;
         }
         for (int i = 0; i<n;i++){
             if (s1.charAt(0) == s2.charAt(i))
                 dp[0][i] = 1;
-            else
-                dp[0][i] = 0;
         }
 
         for (int i = 1;i<m;i++){
             for (int j = 1;j<n;j++){
                 if (s1.charAt(i)==s2.charAt(j))
                     dp[i][j]=dp[i-1][j-1]+1;
-                else
-                    dp[i][j] = 0;
                 max = Math.max(max,dp[i][j]);
             }
         }

@@ -245,8 +245,8 @@ public class BinTreeTraverse {
         boolean flag = false;
         if(!linkedList.isEmpty()){
             Node node = linkedList.poll();
-            Node left = root.leftChild;
-            Node right = root.rightChild;
+            Node left = node.leftChild;
+            Node right = node.rightChild;
             if((flag&&((left!=null)||(right!= null))) || (left==null&&right!=null)){
                 return false;
             }

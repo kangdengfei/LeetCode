@@ -50,7 +50,7 @@ public class Solution9{
     }
 
     public static void main(String[] args) {
-        String[] st = {"a","b","c"};
+        String[] st = {"a","b","b","c"};
         List list = new ArrayList();
         combition(st,0,st.length,list);
         System.out.println(list);

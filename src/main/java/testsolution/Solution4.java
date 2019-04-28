@@ -19,7 +19,7 @@ public class Solution4 {
         }
         ArrayList<Integer> list = new ArrayList<Integer>();
         while (!stack.isEmpty())
-        list.add(stack.pop());
+            list.add(stack.pop());
 
         return list;
     }

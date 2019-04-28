@@ -28,7 +28,7 @@ package LeetCode101_150;
 /*
 当前价格与前i天价格的最最小值的差，与result 比较，去最大的。
  */
-public class Best_Time_to_Buy_and_Sell_Stock_121 {
+public class  Best_Time_to_Buy_and_Sell_Stock_121 {
     public int maxProfit(int[] prices) {
         if(prices == null || prices.length == 0){
             return 0;
