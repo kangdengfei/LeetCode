@@ -67,18 +67,18 @@ public class House_Robber_III_337 {
 
     }
 
-    public int [] max(TreeNode node){
+    public int[] max(TreeNode root){
         int [] res = new int[2];
-        if (node == null){
+        if (root == null)
             return res;
-        }
-        int [] left = max(node.left);
-        int [] right = max(node.right);
-        res[0] = node.val + left[1]+right[1];//取当前元素
-        res[1] = Math.max(left[0],left[1]) + Math.max(right[0],right[1]);//不取当前节点
+        int[] left = max(root.left);
+        int[] right = max((root.right));
+        res[0] = root.val + left[1] +right[1];
+        res[1] = Math.max(left[0],left[1])+Math.max(right[0],right[1]);
         return res;
-
     }
+
+
 }
 
 /*
