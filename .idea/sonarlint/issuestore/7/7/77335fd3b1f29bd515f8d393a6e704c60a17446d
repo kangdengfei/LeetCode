@@ -1,8 +1,8 @@
 
-Zsquid:S2259"EA "NullPointerException" could be thrown; "combion" is nullable here.(´÷º¡
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(´÷º¡
-@squid:S1168"+Return an empty collection instead of null.(•πÔç
 1squid:S1220""Move this file to a named package.
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ªûùï˚ˇˇˇˇ
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Èÿª⁄˚ˇˇˇˇ
+Zsquid:S2259"EA "NullPointerException" could be thrown; "combion" is nullable here.(´÷º¡
+@squid:S1168"+Return an empty collection instead of null.(•πÔç
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(´÷º¡

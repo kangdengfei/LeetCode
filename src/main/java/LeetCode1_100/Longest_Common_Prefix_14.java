@@ -42,6 +42,7 @@ public class Longest_Common_Prefix_14 {
         }
         return temp;
     }
+
 }
 
 

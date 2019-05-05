@@ -1,10 +1,10 @@
 
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ
-`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›Èó
+‚ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶è™Éüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒìîüıÿÿÿÿ
 ‚ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
 esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¿¸²ûıÿÿÿÿ
-‚ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›Èó

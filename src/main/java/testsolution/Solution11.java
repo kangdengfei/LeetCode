@@ -1,5 +1,7 @@
 package testsolution;
 
+import com.sun.javafx.collections.ListListenerHelper;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +31,27 @@ public class Solution11 {
         System.out.println("结果数为:" + (nbit - 1));
     }
 
+    public static void combinationV2(String s) {
+        int n = s.length();
+        int nbit = 1 << n;
+        List res = new ArrayList();
+        for (int i = 0;i<nbit;i++){
+            List list = new ArrayList();
+            int temp = 0;
+            int j = i;
+             while (j != 0){
+                 if ((j & 1) != 0){
+                     list.add(s.charAt(temp));
+                 }
+                 temp++;
+                 j = j>>1;
+             }
+             res.add(new ArrayList<>(list));
+        }
+        System.out.println(res);
+        System.out.println("结果数为:" + (nbit - 1));
+    }
+
     public static void combination2(String s,int len){
         char[] chars = s.toCharArray();
         combination2(chars,0,len,new ArrayList());
@@ -47,11 +70,12 @@ public class Solution11 {
         }
     }
     public static void main(String[] args) {
-        new Solution11().combination("cgz");
-        String string = "abc";
-        for (int i = 0;i<=string.length();i++){
-            combination2(string,i);
-        }
+//        new Solution11().combination("cgz");
+        String string = "ab";
+//        for (int i = 0;i<=string.length();i++){
+//            combination2(string,i);
+//        }
+        combinationV2(string);
 
 
 

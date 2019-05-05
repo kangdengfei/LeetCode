@@ -1,8 +1,8 @@
 
-^squid:S1854"=Remove this useless assignment to local variable "maxlength".(„¢³õúÿÿÿÿ8ÿØïı¡-
+Osquid:S1481".Remove this unused "maxlength" local variable.(„¢³õúÿÿÿÿ8ÿØïı¡-
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ù „r8òÇğı¡-
 lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(È”‹úøÿÿÿÿ8ÿØïı¡-
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ä“ùüÿÿÿÿ8üöóı¡-
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(‡ş©»8è±’±-
-fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ù „r8òÇğı¡-
-Osquid:S1481".Remove this unused "maxlength" local variable.(„¢³õúÿÿÿÿ8ÿØïı¡-
+^squid:S1854"=Remove this useless assignment to local variable "maxlength".(„¢³õúÿÿÿÿ8ÿØïı¡-
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ä“ùüÿÿÿÿ8üöóı¡-

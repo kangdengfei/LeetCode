@@ -1,6 +1,6 @@
 
+asquid:S2259"EA "NullPointerException" could be thrown; "combion" is nullable here.(«Ö¼Á8–¿ƒ®-
 8squid:S1220""Move this file to a named package.8–¿ƒ®-
 Gsquid:S1168"+Return an empty collection instead of null.(¥¹ï8–¿ƒ®-
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(«Ö¼Á8–¿ƒ®-
-asquid:S2259"EA "NullPointerException" could be thrown; "combion" is nullable here.(«Ö¼Á8–¿ƒ®-

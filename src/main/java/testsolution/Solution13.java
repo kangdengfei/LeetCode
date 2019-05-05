@@ -32,7 +32,7 @@ import java.util.ArrayList;
  */
 
 
-public class Solution13 {
+public class  Solution13 {
     public static String maxCommonString(String s1, String s2){
         int n= s1.length();
         int m = s2.length();

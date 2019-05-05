@@ -43,7 +43,7 @@ public class Subsets_78 {
     public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start ,int len){
         if(len == 0){
             list.add(new ArrayList(combinList));
-            return;
+//            return; 不要随便ruturn
         }
         for(int i = start ;i<nums.length; i++){
             combinList.add(nums[i]);
@@ -52,9 +52,32 @@ public class Subsets_78 {
         }
     }
 
+
+    public static List<List<Integer>> subsetsV2(int[] nums) {
+        if(nums == null){
+            return null;
+        }
+        List<List<Integer>> list = new ArrayList();
+        List<Integer> combinList = new ArrayList();
+
+        subsets(list, combinList, nums, 0);
+
+        return list;
+    }
+    public static void subsets(List<List<Integer>> list,List<Integer> combinList,int[] nums,int start){
+        list.add(new ArrayList<>(combinList));
+        for (int i =start;i<nums.length;i++){
+            combinList.add(nums[i]);
+            subsets(list,combinList,nums,i+1);
+            combinList.remove(combinList.size()-1);
+        }
+    }
+
     public static void main(String[] args) {
-        int [] array = {1,2,2,2};
+        int [] array = {1,2,3};
         System.out.println(subsets(array));
+        System.out.println("==============");
+        System.out.println(subsetsV2(array));
     }
 }
 

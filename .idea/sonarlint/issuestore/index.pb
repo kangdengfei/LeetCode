@@ -434,3 +434,7 @@ j
 :src/main/java/Leetcode350_/Next_Greater_Element_1_496.java,9/5/95ab86a40be2921078a500b0b59ccba62557be3e
 k
 ;src/main/java/Leetcode350_/Next_Greater_Element_II_503.java,6/5/654fbdec919319a1da6ea414f952597f4b3bb866
+c
+3src/main/java/Leetcode250_/Perfect_Squares_279.java,7/0/70492bcaaea2d12a8596e702d5ce2ae5a7c1703c
+g
+7src/main/java/Leetcode350_/Find_the_Difference_389.java,1/d/1d1ba8c17c8502c905f61addea460271c36ba518

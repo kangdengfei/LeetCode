@@ -15,13 +15,13 @@ public class Solution3 {
         else {
 
             for(int i = 0;i<str.length();i++){
-            if(str.charAt(i)==' '){
-                sb.append('%');
-                sb.append(2);
-                sb.append(0);
-            }else{
-                sb.append(str.charAt(i));
-            }
+                if(str.charAt(i)==' '){
+                    sb.append('%');
+                    sb.append(2);
+                    sb.append(0);
+                }else{
+                    sb.append(str.charAt(i));
+                }
 
             }
 

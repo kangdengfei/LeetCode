@@ -49,6 +49,28 @@ public class All_Paths_From_Source_to_Target_797 {
     }
 
 
+    public List<List<Integer>> allPathsSourceTarget2(int[][] graph) {
+        if (graph == null || graph.length == 0){
+            return null;
+        }
+        List<List<Integer>> list = new ArrayList();
+        List combinList = new  ArrayList<>();
+        combinList.add(0);
+        allPathsSourceTarget2(0,graph.length-1,graph,combinList,list);
+        return list;
+    }
+
+    public void allPathsSourceTarget2(int start,int end,int[][] graph,List<Integer> combinList,List<List<Integer>>list){
+        if (start == end){
+            list.add(new ArrayList(combinList));
+        }
+        for (int i = 0;i<graph[start].length;i++){
+            combinList.add(graph[start][i]);
+            allPathsSourceTarget2(graph[start][i],end,graph,combinList,list);
+            combinList.remove(combinList.size()-1);
+        }
+    }
+
 }
 
 
