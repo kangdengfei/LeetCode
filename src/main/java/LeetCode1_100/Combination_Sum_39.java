@@ -50,7 +50,7 @@ public class Combination_Sum_39 {
         //处理逻辑
         if(sum == 0){
             list.add(new ArrayList(comList));
-            return;
+
         }
         //进入下一层
         for(int i = start ;i<len ;i++){
