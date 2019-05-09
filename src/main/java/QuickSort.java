@@ -140,4 +140,27 @@ public class QuickSort {
         for(int i = 0;i<a3.length;i++)
             System.out.print(a3[i]+" ");
     }
+
+
+
+    public void quickSort4(int [] array,int left,int right){
+        while (left < right){
+            int i = left;
+            int j = right;
+            int temp = array[i];
+            while (i<j){
+                while (i<j && array[j] > temp){
+                    j--;
+                }
+                if (array[j] <= temp){
+                    array[i] = array[j];
+                    i++;
+                }
+                while (i < j && array[i] < temp){
+
+                }
+            }
+        }
+
+    }
 }
